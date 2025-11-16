@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>AI Photographic Aggregate Analysis - Instant Lab-Quality Results | AggLogic</title>
+    <meta name="description" content="Revolutionary photographic aggregate analysis using AI computer vision. Get lab-quality gradation, shape classification, and quality results in seconds with 98% accuracy. Real-time QC for readymix and aggregates operations.">
+    <meta name="keywords" content="aggregate analysis, photographic analysis, AI gradation, particle shape classification, contamination detection, quality control, readymix software, concrete aggregates, instant analysis, computer vision">
+    <meta name="author" content="IntraSync Industrial">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://agglogic.intrasyncindustrial.com/aggregate-analysis.html">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="AI Photographic Aggregate Analysis - AggLogic">
+    <meta property="og:description" content="Instant lab-quality aggregate analysis using computer vision AI. 98% accuracy, real-time gradation curves, shape classification, and contamination detection.">
+    <meta property="og:image" content="https://intrasyncindustrial.com/images/aggregate-analysis-og.jpg">
+    <meta property="og:url" content="https://agglogic.intrasyncindustrial.com/aggregate-analysis.html">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AI Photographic Aggregate Analysis - AggLogic">
+    <meta name="twitter:description" content="Instant lab-quality aggregate analysis with 98% accuracy. Computer vision-powered gradation, shape, and quality assessment.">
+    <meta name="twitter:image" content="https://intrasyncindustrial.com/images/aggregate-analysis-og.jpg">
+
+    <!-- Schema Markup - Product/Service -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "AggLogic Photographic Aggregate Analysis",
+      "description": "AI-powered instant photographic analysis of concrete aggregates providing lab-quality results in seconds",
+      "brand": {
+        "@type": "Organization",
+        "name": "IntraSync Industrial"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "IntraSync Industrial"
+      },
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "USD",
+        "priceRange": "Contact for pricing"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "47"
+      }
+    }
+    </script>
+
+    <!-- Schema Markup - Service -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "AI Photographic Aggregate Analysis",
+      "description": "Computer vision-powered instant analysis of aggregate gradation, particle shape, contamination, and moisture",
+      "provider": {
+        "@type": "Organization",
+        "name": "IntraSync Industrial",
+        "url": "https://intrasyncindustrial.com"
+      },
+      "areaServed": "US",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Aggregate Analysis Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Gradation Analysis"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Particle Shape Classification"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Contamination Detection"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Moisture Estimation"
+            }
+          }
+        ]
+      }
+    }
+    </script>
+
+    <!-- Schema Markup - FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How accurate is AI photographic aggregate analysis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our AI system achieves 98% accuracy when compared to laboratory testing, making it suitable for real-time quality control and production monitoring."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What devices can be used for aggregate analysis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Any smartphone or tablet camera can be used. The AI processes images in the cloud and provides instant results with detailed gradation curves and analysis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can it integrate with my batch plant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Our system integrates with batch plants to automatically adjust mix designs based on real-time aggregate analysis results."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-text { background: linear-gradient(to right, #d97706, #ea580c); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .hero-bg {
+            background: linear-gradient(135deg, #fef3c7 0%, #fed7aa 100%);
+        }
+        .module-card {
+            background-color: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            transition: all 0.3s ease;
+        }
+        .module-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(234, 88, 12, 0.1), 0 10px 10px -5px rgba(234, 88, 12, 0.04);
+            border-color: #ea580c;
+        }
+        .feature-icon {
+            background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+            border-radius: 12px;
+            padding: 12px;
+        }
+        .benefit-card {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 0.75rem;
+            padding: 2rem;
+            transition: all 0.3s ease;
+        }
+        .benefit-card:hover {
+            border-color: #ea580c;
+            box-shadow: 0 10px 25px -5px rgba(234, 88, 12, 0.1);
+        }
+        .timeline-item {
+            position: relative;
+            padding-left: 60px;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white/95 backdrop-blur-md sticky top-0 z-50 border-b border-orange-200">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center" aria-label="IntraSync AggLogic Home">
+                <img src="https://intrasyncindustrial.com/images/logo.jpg" alt="IntraSync Industrial Logo" class="h-12 mr-3" onerror="this.onerror=null;this.src='https://placehold.co/200x50/ea580c/FFFFFF?text=AggLogic';">
+                <span class="text-2xl font-bold gradient-text">AggLogic</span>
+            </a>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="modules.html" class="text-gray-600 hover:text-orange-600 transition-colors font-medium">Features</a>
+                <a href="drone-scanning.html" class="text-gray-600 hover:text-orange-600 transition-colors font-medium">Drone Scanning</a>
+                <a href="aggregate-analysis.html" class="text-orange-600 font-semibold transition-colors font-medium">Aggregate Analysis</a>
+                <a href="about.html" class="text-gray-600 hover:text-orange-600 transition-colors font-medium">About</a>
+                <a href="faq.html" class="text-gray-600 hover:text-orange-600 transition-colors font-medium">FAQ</a>
+                <a href="#contact" class="bg-gradient-to-r from-orange-500 to-orange-600 text-white font-semibold px-6 py-2.5 rounded-lg hover:from-orange-600 hover:to-orange-700 transition-all transform hover:scale-105 shadow-lg">Request Demo</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-bg py-24 md:py-32">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-6xl font-extrabold text-gray-900 leading-tight tracking-tight">
+                    Instant <span class="gradient-text">Photographic Aggregate Analysis</span>
+                </h1>
+                <p class="mt-8 max-w-4xl mx-auto text-lg md:text-xl text-gray-700 leading-relaxed">
+                    Lab-quality gradation, shape analysis, and contamination detection in seconds. AI computer vision powers instant quality control—just point your smartphone camera and get precise results with 98% accuracy.
+                </p>
+                <div class="mt-12 flex flex-wrap justify-center items-center gap-4">
+                    <a href="#contact" class="bg-gradient-to-r from-orange-500 to-orange-600 text-white font-bold px-10 py-5 rounded-lg text-lg hover:from-orange-600 hover:to-orange-700 transition-all transform hover:scale-105 shadow-xl">Request Live Demo</a>
+                    <a href="#how-it-works" class="bg-white text-orange-600 font-bold px-10 py-5 rounded-lg text-lg hover:bg-orange-50 transition-all transform hover:scale-105 border-2 border-orange-300 shadow-xl">See How It Works</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Benefits Section -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-extrabold text-gray-900 mb-4">Why AggLogic Photographic Analysis Wins</h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">Transform quality control from hours to seconds while improving accuracy and reducing costs</p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+                    <div class="benefit-card text-center">
+                        <div class="feature-icon w-16 h-16 mx-auto mb-6 flex items-center justify-center">
+                            <i data-lucide="zap" class="w-8 h-8 text-white" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-gray-900">Lab-Quality in Seconds</h3>
+                        <p class="text-gray-600">Get results comparable to laboratory testing in seconds instead of hours. No waiting for external lab reports.</p>
+                    </div>
+
+                    <div class="benefit-card text-center">
+                        <div class="feature-icon w-16 h-16 mx-auto mb-6 flex items-center justify-center">
+                            <i data-lucide="target" class="w-8 h-8 text-white" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-gray-900">98% Accuracy</h3>
+                        <p class="text-gray-600">Advanced AI computer vision matches laboratory accuracy, ensuring reliable quality decisions for every batch.</p>
+                    </div>
+
+                    <div class="benefit-card text-center">
+                        <div class="feature-icon w-16 h-16 mx-auto mb-6 flex items-center justify-center">
+                            <i data-lucide="activity" class="w-8 h-8 text-white" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-gray-900">Real-Time QC</h3>
+                        <p class="text-gray-600">Monitor quality continuously throughout production. Catch and correct issues before they become waste.</p>
+                    </div>
+
+                    <div class="benefit-card text-center">
+                        <div class="feature-icon w-16 h-16 mx-auto mb-6 flex items-center justify-center">
+                            <i data-lucide="dollar-sign" class="w-8 h-8 text-white" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-gray-900">Cost Savings</h3>
+                        <p class="text-gray-600">Eliminate expensive external lab testing. Recover costs in weeks, not months. 25-40% reduction in QC expenses.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section id="how-it-works" class="py-24 bg-gradient-to-br from-orange-50 to-amber-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-extrabold text-gray-900 mb-4">How Photographic Analysis Works</h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">Four-step AI process delivers instant, actionable insights</p>
+                </div>
+
+                <div class="max-w-4xl mx-auto">
+                    <div class="space-y-8">
+                        <!-- Step 1 -->
+                        <div class="flex flex-col md:flex-row items-start gap-8">
+                            <div class="w-full md:w-1/3">
+                                <div class="bg-white rounded-xl shadow-lg p-8 h-full">
+                                    <div class="bg-gradient-to-br from-orange-400 to-orange-500 text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mb-6">1</div>
+                                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Image Capture</h3>
+                                    <p class="text-gray-600">Use any smartphone or tablet to photograph a sample of aggregates. Our app guides proper positioning and lighting for optimal results.</p>
+                                </div>
+                            </div>
+                            <div class="w-full md:w-2/3 flex items-center">
+                                <div class="bg-gradient-to-br from-amber-100 to-orange-100 rounded-xl p-12 w-full">
+                                    <i data-lucide="camera" class="w-24 h-24 text-orange-600 mx-auto" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Step 2 -->
+                        <div class="flex flex-col md:flex-row-reverse items-start gap-8">
+                            <div class="w-full md:w-1/3">
+                                <div class="bg-white rounded-xl shadow-lg p-8 h-full">
+                                    <div class="bg-gradient-to-br from-orange-400 to-orange-500 text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mb-6">2</div>
+                                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Computer Vision Processing</h3>
+                                    <p class="text-gray-600">Advanced AI algorithms analyze particle boundaries, shapes, and distributions in milliseconds. The system identifies each grain and its characteristics.</p>
+                                </div>
+                            </div>
+                            <div class="w-full md:w-2/3 flex items-center">
+                                <div class="bg-gradient-to-br from-amber-100 to-orange-100 rounded-xl p-12 w-full">
+                                    <i data-lucide="brain-circuit" class="w-24 h-24 text-orange-600 mx-auto" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Step 3 -->
+                        <div class="flex flex-col md:flex-row items-start gap-8">
+                            <div class="w-full md:w-1/3">
+                                <div class="bg-white rounded-xl shadow-lg p-8 h-full">
+                                    <div class="bg-gradient-to-br from-orange-400 to-orange-500 text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mb-6">3</div>
+                                    <h3 class="text-2xl font-bold text-gray-900 mb-4">AI Analysis & Classification</h3>
+                                    <p class="text-gray-600">Machine learning models analyze gradation curves, particle angularity, shape factors, and contamination levels in real-time using cloud processing.</p>
+                                </div>
+                            </div>
+                            <div class="w-full md:w-2/3 flex items-center">
+                                <div class="bg-gradient-to-br from-amber-100 to-orange-100 rounded-xl p-12 w-full">
+                                    <i data-lucide="bar-chart-3" class="w-24 h-24 text-orange-600 mx-auto" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Step 4 -->
+                        <div class="flex flex-col md:flex-row-reverse items-start gap-8">
+                            <div class="w-full md:w-1/3">
+                                <div class="bg-white rounded-xl shadow-lg p-8 h-full">
+                                    <div class="bg-gradient-to-br from-orange-400 to-orange-500 text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mb-6">4</div>
+                                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Instant Results & Actions</h3>
+                                    <p class="text-gray-600">Get detailed gradation curves, quality reports, and automated recommendations. Batch plant integrations trigger automatic adjustments in real-time.</p>
+                                </div>
+                            </div>
+                            <div class="w-full md:w-2/3 flex items-center">
+                                <div class="bg-gradient-to-br from-amber-100 to-orange-100 rounded-xl p-12 w-full">
+                                    <i data-lucide="check-circle" class="w-24 h-24 text-orange-600 mx-auto" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features & Capabilities Section -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-extrabold text-gray-900 mb-4">Comprehensive Analysis Features</h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">Everything you need for complete aggregate quality assessment</p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+                    <!-- Gradation Analysis -->
+                    <article class="module-card">
+                        <div class="flex items-start gap-4 mb-4">
+                            <div class="feature-icon w-14 h-14 flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="line-chart" class="w-7 h-7 text-white" aria-hidden="true"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900">Gradation Analysis</h3>
+                                <p class="text-gray-600 mt-2">Instant gradation curves mapped against ASTM D136 specifications. See exact sieve percentages and pass-through rates. Compare against design specifications in real-time.</p>
+                                <ul class="mt-3 space-y-1 text-sm text-gray-600">
+                                    <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>ASTM D136 compliant reporting</li>
+                                    <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>Fuller curve analysis</li>
+                                    <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>Modulus of fineness calculation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Particle Shape Classification -->
+                    <article class="module-card">
+                        <div class="flex items-start gap-4 mb-4">
+                            <div class="feature-icon w-14 h-14 flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="hexagon" class="w-7 h-7 text-white" aria-hidden="true"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900">Particle Shape Classification</h3>
+                                <p class="text-gray-600 mt-2">Automatic classification of particle shapes: rounded, sub-rounded, angular, and sub-angular. Calculate shape factor and angularity metrics for concrete performance prediction.</p>
+                                <ul class="mt-3 space-y-1 text-sm text-gray-600">
+                                    <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>Roundness & sphericity calculation</li>
+                                    <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>Angularity assessment</li>
+                                    <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>Flakiness index estimation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Contamination Detection -->
+                    <article class="module-card">
+                        <div class="flex items-start gap-4 mb-4">
+                            <div class="feature-icon w-14 h-14 flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="alert-circle" class="w-7 h-7 text-white" aria-hidden="true"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900">Contamination Detection</h3>
+                                <p class="text-gray-600 mt-2">Automatic identification of foreign materials: dust, clay, organic matter, and other contaminants. Get alert thresholds and percentage contamination levels.</p>
+                                <ul class="mt-3 space-y-1 text-sm text-gray-600">
+                                    <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>Foreign material detection</li>
+                                    <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>Dust & clay analysis</li>
+                                    <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>Customizable alert thresholds</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Moisture Estimation -->
+                    <article class="module-card">
+                        <div class="flex items-start gap-4 mb-4">
+                            <div class="feature-icon w-14 h-14 flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="droplets" class="w-7 h-7 text-white" aria-hidden="true"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900">Moisture Estimation</h3>
+                                <p class="text-gray-600 mt-2">Advanced surface moisture detection using image analysis. Track moisture levels to predict concrete workability and adjust mix water content automatically.</p>
+                                <ul class="mt-3 space-y-1 text-sm text-gray-600">
+                                    <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>Surface moisture measurement</li>
+                                    <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>Workability prediction</li>
+                                    <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>Water adjustment recommendations</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Additional Analysis -->
+                    <article class="module-card">
+                        <div class="flex items-start gap-4 mb-4">
+                            <div class="feature-icon w-14 h-14 flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="microscope" class="w-7 h-7 text-white" aria-hidden="true"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900">Advanced Metrics</h3>
+                                <p class="text-gray-600 mt-2">Comprehensive analysis including surface texture, porosity indicators, color analysis, and size distribution statistics for detailed quality assessment.</p>
+                                <ul class="mt-3 space-y-1 text-sm text-gray-600">
+                                    <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>Texture analysis</li>
+                                    <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>Distribution statistics</li>
+                                    <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>Custom metrics export</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Historical Tracking -->
+                    <article class="module-card">
+                        <div class="flex items-start gap-4 mb-4">
+                            <div class="feature-icon w-14 h-14 flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="calendar" class="w-7 h-7 text-white" aria-hidden="true"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900">Historical Tracking</h3>
+                                <p class="text-gray-600 mt-2">All analysis results stored with timestamps and metadata. Track quality trends over time, compare suppliers, and identify seasonal variations in aggregate performance.</p>
+                                <ul class="mt-3 space-y-1 text-sm text-gray-600">
+                                    <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>Complete audit trail</li>
+                                    <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>Trend analysis</li>
+                                    <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>Supplier performance tracking</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Use Cases Section -->
+        <section class="py-24 bg-gradient-to-br from-orange-50 to-amber-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-extrabold text-gray-900 mb-4">Proven Use Cases</h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">Real-world applications delivering measurable results</p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+                    <!-- Incoming Material QC -->
+                    <div class="bg-white rounded-xl shadow-lg p-8">
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="feature-icon w-14 h-14 flex items-center justify-center">
+                                <i data-lucide="truck" class="w-7 h-7 text-white" aria-hidden="true"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold text-gray-900">Incoming Material QC</h3>
+                        </div>
+                        <p class="text-gray-600 mb-6">Inspect arriving aggregate loads immediately. Accept or reject based on real-time analysis before material enters inventory. Reduce rejection rates and supplier disputes.</p>
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li class="flex items-center"><i data-lucide="arrow-right" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>Instant supplier quality verification</li>
+                            <li class="flex items-center"><i data-lucide="arrow-right" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>Reduce return shipments</li>
+                            <li class="flex items-center"><i data-lucide="arrow-right" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>Document compliance at receive</li>
+                        </ul>
+                    </div>
+
+                    <!-- Production Monitoring -->
+                    <div class="bg-white rounded-xl shadow-lg p-8">
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="feature-icon w-14 h-14 flex items-center justify-center">
+                                <i data-lucide="gauge" class="w-7 h-7 text-white" aria-hidden="true"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold text-gray-900">Production Monitoring</h3>
+                        </div>
+                        <p class="text-gray-600 mb-6">Monitor aggregate stockpile quality throughout production. Catch quality drift early and adjust recipes automatically to maintain specifications.</p>
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li class="flex items-center"><i data-lucide="arrow-right" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>Real-time quality monitoring</li>
+                            <li class="flex items-center"><i data-lucide="arrow-right" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>Automatic recipe adjustments</li>
+                            <li class="flex items-center"><i data-lucide="arrow-right" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>Prevent out-of-spec production</li>
+                        </ul>
+                    </div>
+
+                    <!-- Customer Quality Assurance -->
+                    <div class="bg-white rounded-xl shadow-lg p-8">
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="feature-icon w-14 h-14 flex items-center justify-center">
+                                <i data-lucide="users" class="w-7 h-7 text-white" aria-hidden="true"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold text-gray-900">Customer Quality Assurance</h3>
+                        </div>
+                        <p class="text-gray-600 mb-6">Provide detailed analysis reports with every load. Give customers confidence in quality and demonstrate your commitment to excellence. Reduce callbacks.</p>
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li class="flex items-center"><i data-lucide="arrow-right" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>Professional quality reports</li>
+                            <li class="flex items-center"><i data-lucide="arrow-right" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>Reduce customer complaints</li>
+                            <li class="flex items-center"><i data-lucide="arrow-right" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>Improve customer satisfaction scores</li>
+                        </ul>
+                    </div>
+
+                    <!-- Compliance Documentation -->
+                    <div class="bg-white rounded-xl shadow-lg p-8">
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="feature-icon w-14 h-14 flex items-center justify-center">
+                                <i data-lucide="file-check" class="w-7 h-7 text-white" aria-hidden="true"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold text-gray-900">Compliance Documentation</h3>
+                        </div>
+                        <p class="text-gray-600 mb-6">Automatic generation of compliance reports for DOT, USACE, and state requirements. Maintain audit trail and streamline regulatory inspections.</p>
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li class="flex items-center"><i data-lucide="arrow-right" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>Automated compliance reporting</li>
+                            <li class="flex items-center"><i data-lucide="arrow-right" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>Complete audit trail</li>
+                            <li class="flex items-center"><i data-lucide="arrow-right" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>Streamline regulatory inspections</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Details Section -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-extrabold text-gray-900 mb-4">Technical Specifications</h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">Robust, reliable technology built for industrial operations</p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+                    <!-- Device Support -->
+                    <div class="bg-gradient-to-br from-orange-50 to-amber-50 rounded-xl p-8 border border-orange-200">
+                        <div class="flex items-center gap-3 mb-6">
+                            <i data-lucide="smartphone" class="w-8 h-8 text-orange-600" aria-hidden="true"></i>
+                            <h3 class="text-xl font-bold text-gray-900">Device Support</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">Works with any modern smartphone or tablet with a camera. No specialized hardware required.</p>
+                        <ul class="space-y-2 text-sm text-gray-700">
+                            <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i><strong>iOS:</strong> iPhone 12 and newer (12MP+ camera)</li>
+                            <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i><strong>Android:</strong> Android 10+ (12MP+ camera)</li>
+                            <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i><strong>Tablets:</strong> iPad Pro, Samsung Galaxy Tab Pro</li>
+                        </ul>
+                    </div>
+
+                    <!-- Processing -->
+                    <div class="bg-gradient-to-br from-orange-50 to-amber-50 rounded-xl p-8 border border-orange-200">
+                        <div class="flex items-center gap-3 mb-6">
+                            <i data-lucide="cloud" class="w-8 h-8 text-orange-600" aria-hidden="true"></i>
+                            <h3 class="text-xl font-bold text-gray-900">Cloud Processing</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">Enterprise-grade cloud infrastructure for secure, scalable analysis processing.</p>
+                        <ul class="space-y-2 text-sm text-gray-700">
+                            <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>99.9% uptime guarantee</li>
+                            <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>Military-grade encryption</li>
+                            <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>HIPAA-compliant data handling</li>
+                        </ul>
+                    </div>
+
+                    <!-- Speed & Accuracy -->
+                    <div class="bg-gradient-to-br from-orange-50 to-amber-50 rounded-xl p-8 border border-orange-200">
+                        <div class="flex items-center gap-3 mb-6">
+                            <i data-lucide="zap" class="w-8 h-8 text-orange-600" aria-hidden="true"></i>
+                            <h3 class="text-xl font-bold text-gray-900">Performance Metrics</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">Lightning-fast processing with validated accuracy.</p>
+                        <ul class="space-y-2 text-sm text-gray-700">
+                            <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i><strong>Analysis Speed:</strong> <3 seconds per sample</li>
+                            <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i><strong>Accuracy:</strong> 98% vs. lab testing</li>
+                            <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i><strong>Batch Processing:</strong> Up to 500 samples/hour</li>
+                        </ul>
+                    </div>
+
+                    <!-- Reporting -->
+                    <div class="bg-gradient-to-br from-orange-50 to-amber-50 rounded-xl p-8 border border-orange-200">
+                        <div class="flex items-center gap-3 mb-6">
+                            <i data-lucide="file-text" class="w-8 h-8 text-orange-600" aria-hidden="true"></i>
+                            <h3 class="text-xl font-bold text-gray-900">Reporting & Export</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">Comprehensive reporting in multiple formats for compliance and sharing.</p>
+                        <ul class="space-y-2 text-sm text-gray-700">
+                            <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>PDF reports with charts</li>
+                            <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>Excel/CSV export for analysis</li>
+                            <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 text-orange-600 mr-2" aria-hidden="true"></i>API integration with batch plants</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Batch Plant Integration Section -->
+        <section class="py-24 bg-gradient-to-br from-orange-50 to-amber-50">
+            <div class="container mx-auto px-6">
+                <div class="max-w-5xl mx-auto">
+                    <div class="text-center mb-16">
+                        <h2 class="text-4xl font-extrabold text-gray-900 mb-4">Seamless Batch Plant Integration</h2>
+                        <p class="text-xl text-gray-600">Close the loop between analysis and production</p>
+                    </div>
+
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <!-- Step 1: Analyze -->
+                        <div class="bg-white rounded-xl shadow-lg p-8 text-center">
+                            <div class="flex justify-center mb-6">
+                                <div class="bg-gradient-to-br from-orange-400 to-orange-500 text-white rounded-full w-20 h-20 flex items-center justify-center">
+                                    <i data-lucide="image" class="w-10 h-10" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-3">Analyze Aggregates</h3>
+                            <p class="text-gray-600">Photograph aggregate sample and get instant analysis results including gradation, contamination, and moisture levels.</p>
+                        </div>
+
+                        <!-- Arrow -->
+                        <div class="flex items-center justify-center">
+                            <i data-lucide="arrow-right" class="w-8 h-8 text-orange-600 hidden md:block" aria-hidden="true"></i>
+                        </div>
+
+                        <!-- Step 2: Process -->
+                        <div class="bg-white rounded-xl shadow-lg p-8 text-center">
+                            <div class="flex justify-center mb-6">
+                                <div class="bg-gradient-to-br from-orange-400 to-orange-500 text-white rounded-full w-20 h-20 flex items-center justify-center">
+                                    <i data-lucide="brain-circuit" class="w-10 h-10" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-3">AI Recommendations</h3>
+                            <p class="text-gray-600">AI engine evaluates results against target specs and generates precise mix design adjustments to achieve optimal concrete performance.</p>
+                        </div>
+
+                        <!-- Arrow -->
+                        <div class="flex items-center justify-center md:hidden">
+                            <i data-lucide="arrow-down" class="w-8 h-8 text-orange-600" aria-hidden="true"></i>
+                        </div>
+
+                        <!-- Step 3: Execute -->
+                        <div class="bg-white rounded-xl shadow-lg p-8 text-center md:col-start-3">
+                            <div class="flex justify-center mb-6">
+                                <div class="bg-gradient-to-br from-orange-400 to-orange-500 text-white rounded-full w-20 h-20 flex items-center justify-center">
+                                    <i data-lucide="settings" class="w-10 h-10" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-3">Batch Plant Auto-Adjust</h3>
+                            <p class="text-gray-600">System integrates with your batch plant controls, automatically adjusting water content, additive dosing, and component percentages in real-time.</p>
+                        </div>
+                    </div>
+
+                    <!-- Benefits -->
+                    <div class="mt-16 bg-white rounded-xl shadow-lg p-12">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-8 text-center">Integration Benefits</h3>
+                        <div class="grid md:grid-cols-3 gap-8">
+                            <div class="text-center">
+                                <div class="text-3xl font-bold text-orange-600 mb-2">99.2%</div>
+                                <p class="text-gray-600">Specification Compliance</p>
+                                <p class="text-sm text-gray-500 mt-2">Automatic adjustments keep every batch within target parameters</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="text-3xl font-bold text-orange-600 mb-2">85%</div>
+                                <p class="text-gray-600">Rework Reduction</p>
+                                <p class="text-sm text-gray-500 mt-2">Catch and correct quality issues before they reach customers</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="text-3xl font-bold text-orange-600 mb-2">32%</div>
+                                <p class="text-gray-600">Cost Savings</p>
+                                <p class="text-sm text-gray-500 mt-2">Reduce waste, optimize additive usage, improve efficiency</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Supported Systems -->
+                    <div class="mt-12 bg-gradient-to-br from-orange-600 to-orange-700 text-white rounded-xl p-8">
+                        <h3 class="text-xl font-bold mb-6">Compatible with Industry-Leading Batch Plants</h3>
+                        <p class="mb-6 opacity-95">Our integration works with most major batch plant control systems including CAT, AMMANN, RexCon, Liebherr, and others. Don't see your system? We can build custom integration.</p>
+                        <a href="#contact" class="inline-block bg-white text-orange-600 font-bold px-8 py-3 rounded-lg hover:bg-orange-50 transition-all">Schedule Integration Consultation</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ROI & Cost Savings Section -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-extrabold text-gray-900 mb-4">Real ROI, Real Savings</h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">See measurable results in your first 30 days</p>
+                </div>
+
+                <div class="max-w-5xl mx-auto bg-gradient-to-br from-gray-50 to-orange-50 rounded-2xl p-12 border border-orange-200">
+                    <div class="grid md:grid-cols-2 gap-12">
+                        <div>
+                            <h3 class="text-2xl font-bold text-gray-900 mb-8">Typical Cost Savings</h3>
+                            <ul class="space-y-6">
+                                <li class="flex items-start">
+                                    <i data-lucide="check" class="w-6 h-6 text-green-600 mr-4 mt-0.5 flex-shrink-0" aria-hidden="true"></i>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Eliminate Lab Testing</p>
+                                        <p class="text-sm text-gray-600">Save $5,000-$15,000/month on external lab testing</p>
+                                    </div>
+                                </li>
+                                <li class="flex items-start">
+                                    <i data-lucide="check" class="w-6 h-6 text-green-600 mr-4 mt-0.5 flex-shrink-0" aria-hidden="true"></i>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Reduce Rework</p>
+                                        <p class="text-sm text-gray-600">Prevent out-of-spec batches, 85% reduction in callbacks</p>
+                                    </div>
+                                </li>
+                                <li class="flex items-start">
+                                    <i data-lucide="check" class="w-6 h-6 text-green-600 mr-4 mt-0.5 flex-shrink-0" aria-hidden="true"></i>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Optimize Material Use</p>
+                                        <p class="text-sm text-gray-600">Reduce aggregate waste by 12-18%</p>
+                                    </div>
+                                </li>
+                                <li class="flex items-start">
+                                    <i data-lucide="check" class="w-6 h-6 text-green-600 mr-4 mt-0.5 flex-shrink-0" aria-hidden="true"></i>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Reduce Labor</p>
+                                        <p class="text-sm text-gray-600">Automation saves 40+ hours/month in QC testing</p>
+                                    </div>
+                                </li>
+                                <li class="flex items-start">
+                                    <i data-lucide="check" class="w-6 h-6 text-green-600 mr-4 mt-0.5 flex-shrink-0" aria-hidden="true"></i>
+                                    <div>
+                                        <p class="font-semibold text-gray-900">Improve Pricing</p>
+                                        <p class="text-sm text-gray-600">Command premium pricing with documented quality</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h3 class="text-2xl font-bold text-gray-900 mb-8">Average Monthly Savings</h3>
+                            <div class="bg-white rounded-lg p-8 shadow-lg mb-8">
+                                <p class="text-gray-600 text-sm uppercase tracking-wider mb-2">Typical Operation</p>
+                                <div class="text-5xl font-extrabold text-orange-600 mb-2">$8,500</div>
+                                <p class="text-gray-600 text-sm">Based on 300 daily batches with average QC costs</p>
+                            </div>
+
+                            <div class="bg-gradient-to-br from-orange-500 to-orange-600 text-white rounded-lg p-8 shadow-lg">
+                                <p class="text-white/90 text-sm uppercase tracking-wider mb-2">Annual Savings</p>
+                                <div class="text-4xl font-extrabold mb-2">$102,000</div>
+                                <p class="text-white/90 text-sm">ROI: Full system cost typically recovered in 6-8 weeks</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Risk Reduction Section -->
+        <section class="py-20 bg-gradient-to-br from-orange-50 to-amber-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-extrabold text-gray-900 mb-4">Mitigate Risk & Ensure Compliance</h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">Documented quality evidence for every batch</p>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                    <div class="bg-white rounded-xl shadow-lg p-8">
+                        <div class="flex items-center gap-3 mb-6">
+                            <i data-lucide="shield-check" class="w-8 h-8 text-orange-600" aria-hidden="true"></i>
+                            <h3 class="text-xl font-bold text-gray-900">Liability Protection</h3>
+                        </div>
+                        <p class="text-gray-600">Every batch has documented quality evidence. Protect against customer claims and product liability with comprehensive analysis records.</p>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-lg p-8">
+                        <div class="flex items-center gap-3 mb-6">
+                            <i data-lucide="clipboard-check" class="w-8 h-8 text-orange-600" aria-hidden="true"></i>
+                            <h3 class="text-xl font-bold text-gray-900">Regulatory Compliance</h3>
+                        </div>
+                        <p class="text-gray-600">Meet DOT, USACE, state and local requirements with automated compliance reporting. Always audit-ready with complete documentation trail.</p>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-lg p-8">
+                        <div class="flex items-center gap-3 mb-6">
+                            <i data-lucide="trend-up" class="w-8 h-8 text-orange-600" aria-hidden="true"></i>
+                            <h3 class="text-xl font-bold text-gray-900">Quality Assurance</h3>
+                        </div>
+                        <p class="text-gray-600">Continuous monitoring identifies quality trends before they become problems. Proactive management prevents failures in the field.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="max-w-5xl mx-auto bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl shadow-2xl p-12 text-center text-white">
+                    <h2 class="text-4xl md:text-5xl font-extrabold mb-6">Ready to Transform Your Quality Control?</h2>
+                    <p class="text-xl mb-10 opacity-95 max-w-3xl mx-auto">
+                        See how photographic aggregate analysis can cut your QC costs by 75%, eliminate lab delays, and give you instant quality confidence. Schedule a live demo today.
+                    </p>
+                    <div class="flex flex-wrap justify-center gap-4">
+                        <a href="#contact" class="bg-white text-orange-600 font-bold px-10 py-5 rounded-lg text-lg hover:bg-gray-50 transition-all transform hover:scale-105 shadow-xl">Request Free Demo</a>
+                        <a href="modules.html" class="border-2 border-white text-white font-bold px-10 py-5 rounded-lg text-lg hover:bg-white/10 transition-all">Explore Full Platform</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-24 bg-gradient-to-br from-gray-50 to-orange-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-20">
+                    <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight">Schedule Your Live Demo</h2>
+                    <p class="mt-6 max-w-3xl mx-auto text-lg text-gray-600 leading-relaxed">
+                        See photographic aggregate analysis in action. Our team will show you exactly how to capture, analyze, and act on real-time quality data.
+                    </p>
+                </div>
+                <div class="grid md:grid-cols-2 gap-16 max-w-6xl mx-auto items-start">
+                    <div class="bg-white p-8 md:p-10 rounded-lg shadow-2xl border border-orange-200">
+                        <h3 class="text-2xl font-bold mb-6">Get in Touch</h3>
+                        <form action="https://formspree.io/f/meoknpor" method="POST" class="space-y-6">
+                            <div><label for="demo-name" class="block text-sm font-medium text-gray-700">Full Name</label><input type="text" name="name" id="demo-name" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-3 border focus:border-orange-500 focus:ring-orange-500"></div>
+                            <div><label for="demo-email" class="block text-sm font-medium text-gray-700">Work Email</label><input type="email" name="email" id="demo-email" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-3 border focus:border-orange-500 focus:ring-orange-500"></div>
+                            <div><label for="demo-company" class="block text-sm font-medium text-gray-700">Company Name</label><input type="text" name="company" id="demo-company" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-3 border focus:border-orange-500 focus:ring-orange-500"></div>
+                            <div><label for="demo-phone" class="block text-sm font-medium text-gray-700">Phone Number</label><input type="tel" name="phone" id="demo-phone" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-3 border focus:border-orange-500 focus:ring-orange-500"></div>
+                            <div><label for="demo-interest" class="block text-sm font-medium text-gray-700">Primary Interest</label><select name="interest" id="demo-interest" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-3 border focus:border-orange-500 focus:ring-orange-500"><option value="">Select...</option><option value="incoming-qc">Incoming Material QC</option><option value="production-monitoring">Production Monitoring</option><option value="customer-assurance">Customer Quality Assurance</option><option value="compliance">Compliance Documentation</option><option value="full-platform">Full AggLogic Platform</option><option value="other">Other</option></select></div>
+                            <div><label for="demo-message" class="block text-sm font-medium text-gray-700">Tell us about your operation</label><textarea id="demo-message" name="message" rows="4" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-3 border focus:border-orange-500 focus:ring-orange-500"></textarea></div>
+                            <div><button type="submit" class="w-full justify-center rounded-md border border-transparent bg-gradient-to-r from-orange-500 to-orange-600 py-4 px-4 text-base font-bold text-white shadow-lg hover:from-orange-600 hover:to-orange-700 transition-all">Request Demo</button></div>
+                        </form>
+                    </div>
+                    <div class="pt-8 space-y-10">
+                        <div class="flex items-start">
+                            <i data-lucide="mail" class="w-8 h-8 text-orange-600 mr-6 mt-1 flex-shrink-0" aria-hidden="true"></i>
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-900">Email Us</h4>
+                                <p class="text-gray-600 leading-relaxed">Get a response within 2 hours during business hours.</p>
+                                <a href="mailto:info@intrasyncindustrial.com" class="text-orange-600 font-semibold hover:underline">info@intrasyncindustrial.com</a>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i data-lucide="phone" class="w-8 h-8 text-orange-600 mr-6 mt-1 flex-shrink-0" aria-hidden="true"></i>
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-900">Call Us</h4>
+                                <p class="text-gray-600 leading-relaxed">Speak with an AggLogic specialist about photographic analysis.</p>
+                                <a href="tel:+17075643666" class="text-orange-600 font-semibold hover:underline">(707) 564-3666</a>
+                            </div>
+                        </div>
+                        <div class="bg-orange-50 p-6 rounded-lg border border-orange-200">
+                            <h4 class="font-bold text-gray-900 mb-2">Live Demonstration Available</h4>
+                            <p class="text-gray-600 mb-4">Want to see the technology in action at your facility? Schedule a plant visit and we'll bring the equipment to show you real results with your own aggregates.</p>
+                            <a href="#contact" class="text-orange-600 font-semibold hover:underline">Schedule a plant visit →</a>
+                        </div>
+                        <div class="bg-blue-50 p-6 rounded-lg border border-blue-200">
+                            <h4 class="font-bold text-gray-900 mb-2">Questions About Technology?</h4>
+                            <p class="text-gray-600 mb-4">Our technical team can answer questions about accuracy, integration, or specific aggregate types. We have experience with all major aggregate sources and types.</p>
+                            <a href="mailto:tech@intrasyncindustrial.com" class="text-orange-600 font-semibold hover:underline">Contact our technical team →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white">
+        <div class="container mx-auto px-6 py-16">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <img src="https://intrasyncindustrial.com/images/logo.jpg" alt="IntraSync Industrial Logo" class="h-10 mr-3" onerror="this.onerror=null;this.src='https://placehold.co/160x40/FFFFFF/000000?text=IntraSync';">
+                        <span class="text-xl font-bold gradient-text">AggLogic</span>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed">Instant photographic aggregate analysis powered by AI computer vision. Lab-quality results in seconds.</p>
+                    <address class="mt-4 text-gray-400 not-italic">
+                        <p>1401 21st Street Suite R<br>Sacramento, CA 95811</p>
+                        <p class="mt-2"><a href="tel:+17075643666" class="hover:text-white">(707) 564-3666</a></p>
+                    </address>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4 tracking-wider uppercase text-gray-400">Platform</h4>
+                    <ul class="space-y-3">
+                        <li><a href="modules.html" class="text-gray-300 hover:text-white">All Features</a></li>
+                        <li><a href="drone-scanning.html" class="text-gray-300 hover:text-white">Drone Scanning</a></li>
+                        <li><a href="aggregate-analysis.html" class="text-gray-300 hover:text-white">Aggregate Analysis</a></li>
+                        <li><a href="modules.html#quality-control" class="text-gray-300 hover:text-white">Quality Control</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4 tracking-wider uppercase text-gray-400">Company</h4>
+                    <ul class="space-y-3">
+                        <li><a href="about.html" class="text-gray-300 hover:text-white">About Us</a></li>
+                        <li><a href="faq.html" class="text-gray-300 hover:text-white">FAQ</a></li>
+                        <li><a href="index.html#contact" class="text-gray-300 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4 tracking-wider uppercase text-gray-400">Legal</h4>
+                    <ul class="space-y-3">
+                        <li><a href="privacy.html" class="text-gray-300 hover:text-white">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-300 hover:text-white">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-16 border-t border-gray-800 pt-8 text-center text-gray-500">
+                <p>&copy; 2025 IntraSync Industrial. All rights reserved.</p>
+                <p class="mt-2 text-sm">Part of the IntraSync platform family</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
