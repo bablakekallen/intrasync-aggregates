@@ -38,6 +38,60 @@
 
     <!-- ERP Module Pages -->
     <url>
+        <loc>https://agglogic.intrasyncindustrial.com/schedule.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://agglogic.intrasyncindustrial.com/stock.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://agglogic.intrasyncindustrial.com/flow.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://agglogic.intrasyncindustrial.com/engage.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://agglogic.intrasyncindustrial.com/insights.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://agglogic.intrasyncindustrial.com/ai.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://agglogic.intrasyncindustrial.com/site.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://agglogic.intrasyncindustrial.com/verify.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://agglogic.intrasyncindustrial.com/bidding.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://agglogic.intrasyncindustrial.com/accounting.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
