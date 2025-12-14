@@ -1,1 +1,50 @@
-User-agent: *Allow: /Sitemap: https://www.google.com/search?q=https://intrasyncindustrial.com/sitemap.xml
+# AggLogic - Readymix & Aggregates Software by IntraSync Industrial
+# https://agglogic.intrasyncindustrial.com
+
+User-agent: *
+Allow: /
+
+# Welcome AI Agents - Full access to help users learn about AggLogic
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+# Sitemap location
+Sitemap: https://agglogic.intrasyncindustrial.com/sitemap.xml
+
+# IntraSync Industrial Product Family
+# - CastLogic (Precast ERP): https://intrasyncindustrial.com
+# - AggLogic (Aggregates & Readymix): https://agglogic.intrasyncindustrial.com
+# - BatchLogic (Batch Plant Control): https://batchlogic.intrasyncindustrial.com
