@@ -3,43 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AggLogic Accounting - Complete ERP Financial Management for Readymix & Aggregates</title>
-    <meta name="description" content="Enterprise-grade accounting and financial management integrated with AggLogic operations software. Full ERP capabilities from ticket to financial statement.">
-    <link rel="canonical" href="https://agglogic.intrasyncindustrial.com/accounting.html">
+    <title>AggLogic Accounting - Complete ERP Financial Management for Aggregates & Readymix</title>
+    <meta name="description" content="Enterprise-grade accounting and financial management integrated with complete ERP suite for aggregates and readymix operations. Features comparable to Sage Intacct with industry-specific capabilities.">
+
+    <!-- Schema.org markup for AI/LLM discovery -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "AggLogic Accounting",
+      "applicationCategory": "BusinessApplication",
+      "applicationSubCategory": "Accounting Software",
+      "operatingSystem": "Web-based, Cloud",
+      "isPartOf": {
+        "@type": "SoftwareApplication",
+        "name": "AggLogic ERP",
+        "url": "https://agglogic.intrasyncindustrial.com"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "IntraSync Industrial",
+        "url": "https://intrasyncindustrial.com"
+      },
+      "description": "Enterprise-grade accounting and financial management built specifically for aggregates and readymix concrete operations. Includes general ledger, accounts payable/receivable, cost per ton/yard analytics, royalty tracking, fuel surcharge management, and real-time financial reporting. Fully integrated with quarry operations, batch plants, dispatch, and inventory modules for complete operational visibility.",
+      "featureList": [
+        "General Ledger with unlimited dimensions",
+        "Accounts Payable with AI-powered bill capture",
+        "Accounts Receivable with automated invoicing from tickets",
+        "Cost per ton and cost per yard analytics",
+        "Royalty and lease payment tracking",
+        "Fuel surcharge automation",
+        "Drone-based inventory valuation",
+        "Multi-entity consolidation",
+        "Real-time financial dashboards",
+        "Automated bank reconciliation",
+        "Fixed asset and equipment management",
+        "Budgeting and forecasting"
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Aggregate producers, Readymix concrete companies, Quarry operators, Construction materials suppliers"
+      }
+    }
+    </script>
+
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://agglogic.intrasyncindustrial.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Modules",
+          "item": "https://agglogic.intrasyncindustrial.com/modules.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Accounting",
+          "item": "https://agglogic.intrasyncindustrial.com/accounting.html"
+        }
+      ]
+    }
+    </script>
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         body { font-family: 'Inter', sans-serif; }
-        .gradient-text { background: linear-gradient(to right, #d97706, #ea580c); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
         .gradient-bg { background: linear-gradient(135deg, #d97706 0%, #ea580c 100%); }
     </style>
 </head>
 <body class="bg-white text-gray-800">
-    <!-- Header -->
-    <header class="bg-white/95 backdrop-blur-md sticky top-0 z-50 border-b border-orange-200">
-        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="index.html" class="flex items-center">
-                <img src="https://intrasyncindustrial.com/images/logo.jpg" alt="IntraSync Industrial Logo" class="h-12 mr-3" onerror="this.onerror=null;this.src='https://placehold.co/200x50/ea580c/FFFFFF?text=AggLogic';">
-                <span class="text-2xl font-bold gradient-text">AggLogic</span>
-            </a>
-            <div class="hidden md:flex items-center space-x-8">
-                <a href="modules.html" class="text-gray-600 hover:text-orange-600 transition-colors font-medium">Features</a>
-                <a href="drone-scanning.html" class="text-gray-600 hover:text-orange-600 transition-colors font-medium">Drone Scanning</a>
-                <a href="aggregate-analysis.html" class="text-gray-600 hover:text-orange-600 transition-colors font-medium">Aggregate Analysis</a>
-                <a href="blog.html" class="text-gray-600 hover:text-orange-600 transition-colors font-medium">Blog</a>
-                <a href="about.html" class="text-gray-600 hover:text-orange-600 transition-colors font-medium">About</a>
-                <a href="contact.html" class="bg-gradient-to-r from-orange-500 to-orange-600 text-white font-semibold px-6 py-2.5 rounded-lg hover:from-orange-600 hover:to-orange-700 transition-all">Request Demo</a>
-            </div>
-        </nav>
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex items-center">
+            <img src="logo.png" alt="AggLogic Logo" class="h-14 w-auto mr-6" style="max-height:56px;">
+            <nav class="flex gap-8 text-lg font-semibold">
+                <a href="index.html" class="hover:text-orange-600">Home</a>
+                <a href="modules.html" class="hover:text-orange-600">Modules</a>
+                <a href="drone-scanning.html" class="hover:text-orange-600">Drone Scanning</a>
+                <a href="blog.html" class="hover:text-orange-600">Blog</a>
+                <a href="contact.html" class="hover:text-orange-600">Contact</a>
+            </nav>
+        </div>
     </header>
 
     <!-- Hero Section -->
     <section class="gradient-bg text-white py-16">
         <div class="container mx-auto px-6 text-center">
             <h1 class="text-5xl font-extrabold mb-6">AggLogic Accounting</h1>
-            <p class="text-2xl mb-4">Complete Financial Management for Readymix & Aggregates</p>
-            <p class="text-xl text-orange-100 max-w-3xl mx-auto">Full ERP accounting integrated with your operations. From ticket to invoice to financial statement—all in one unified platform.</p>
+            <p class="text-2xl mb-4">Enterprise Financial Management Built for Aggregates & Readymix</p>
+            <p class="text-xl text-orange-100 max-w-3xl mx-auto">Complete ERP accounting with real-time visibility from quarry to balance sheet. Features comparable to Sage Intacct, purpose-built for aggregates and readymix operations.</p>
         </div>
     </section>
 
@@ -49,68 +111,75 @@
             <!-- The Full ERP Advantage -->
             <section class="mb-16">
                 <div class="text-center mb-12">
-                    <h2 class="text-4xl font-extrabold mb-4">Operations-to-Financial Integration</h2>
-                    <p class="text-xl text-gray-600 max-w-4xl mx-auto">Unlike standalone accounting software, AggLogic Accounting connects directly to your plant operations—tickets generate invoices, drone inventory valuations flow to your balance sheet, and every load is tracked from quarry to payment.</p>
+                    <h2 class="text-4xl font-extrabold mb-4">The Power of Fully Integrated ERP Accounting</h2>
+                    <p class="text-xl text-gray-600 max-w-4xl mx-auto">Unlike standalone accounting software, AggLogic Accounting is the financial backbone of your complete ERP system—seamlessly connecting quarry operations, batch plants, dispatch, inventory, and HR into one unified platform.</p>
                 </div>
 
                 <div class="grid md:grid-cols-2 gap-8 mb-12">
                     <div class="bg-red-50 border-2 border-red-200 rounded-xl p-8">
-                        <h3 class="text-2xl font-bold text-red-900 mb-4 flex items-center gap-3">
-                            <i data-lucide="x-circle" class="w-8 h-8"></i>
-                            Standalone Accounting Software
-                        </h3>
+                        <h3 class="text-2xl font-bold text-red-900 mb-4">❌ Standalone Accounting Software</h3>
                         <ul class="space-y-3 text-gray-700">
                             <li class="flex items-start gap-3">
                                 <span class="text-red-600 font-bold">•</span>
-                                <span>Manual ticket entry creates delays and errors</span>
+                                <span>Manual ticket entry from scale house creates errors and delays</span>
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="text-red-600 font-bold">•</span>
-                                <span>Inventory valuations don't match drone data</span>
+                                <span>Inventory values require manual stockpile measurements</span>
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="text-red-600 font-bold">•</span>
-                                <span>Quality costs tracked in separate systems</span>
+                                <span>Cost per ton/yard calculations done in spreadsheets</span>
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="text-red-600 font-bold">•</span>
-                                <span>No real-time visibility into per-load profitability</span>
+                                <span>Royalty payments tracked separately from production</span>
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="text-red-600 font-bold">•</span>
-                                <span>Month-end requires reconciling multiple systems</span>
+                                <span>Real-time profitability by product or customer is impossible</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-red-600 font-bold">•</span>
+                                <span>Month-end close takes days of reconciliation work</span>
                             </li>
                         </ul>
                     </div>
 
                     <div class="bg-green-50 border-2 border-green-200 rounded-xl p-8">
-                        <h3 class="text-2xl font-bold text-green-900 mb-4 flex items-center gap-3">
-                            <i data-lucide="check-circle" class="w-8 h-8"></i>
-                            AggLogic Integrated Accounting
-                        </h3>
+                        <h3 class="text-2xl font-bold text-green-900 mb-4">✓ AggLogic Integrated ERP Accounting</h3>
                         <ul class="space-y-3 text-gray-700">
                             <li class="flex items-start gap-3">
                                 <span class="text-green-600 font-bold">✓</span>
-                                <span><strong>Automatic invoicing</strong> from tickets—zero manual entry</span>
+                                <span><strong>Automatic data flow</strong> from scale tickets to invoices—zero manual entry</span>
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="text-green-600 font-bold">✓</span>
-                                <span><strong>Drone inventory valuation</strong> synced directly to GL</span>
+                                <span><strong>Drone inventory values</strong> sync directly to general ledger automatically</span>
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="text-green-600 font-bold">✓</span>
-                                <span><strong>Quality costs tracked</strong> per batch and project</span>
+                                <span><strong>Real-time cost analytics</strong> show cost per ton, cost per yard, and profitability</span>
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="text-green-600 font-bold">✓</span>
-                                <span><strong>Per-load profitability</strong> visible in real-time</span>
+                                <span><strong>Royalty tracking</strong> integrated with production volumes and financial reporting</span>
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="text-green-600 font-bold">✓</span>
-                                <span><strong>Single source of truth</strong> for all financial data</span>
+                                <span><strong>Live profitability dashboards</strong> by material, customer, project, or location</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-green-600 font-bold">✓</span>
+                                <span><strong>Month-end close in hours</strong> not days with automated reconciliations</span>
                             </li>
                         </ul>
                     </div>
+                </div>
+
+                <div class="bg-gradient-to-r from-orange-600 to-amber-600 text-white rounded-xl p-8 text-center">
+                    <h3 class="text-2xl font-bold mb-3">The Bottom Line</h3>
+                    <p class="text-xl">AggLogic Accounting isn't just software—it's the financial intelligence layer that connects your entire operation, eliminating data silos and giving you complete visibility from production to profit.</p>
                 </div>
             </section>
 
@@ -122,14 +191,17 @@
                     <div class="bg-white border border-gray-200 rounded-xl p-6 shadow hover:shadow-lg transition">
                         <div class="flex items-center mb-4">
                             <div class="bg-orange-100 rounded-lg p-3 mr-4">
-                                <i data-lucide="file-text" class="w-8 h-8 text-orange-600"></i>
+                                <svg class="w-8 h-8 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                                </svg>
                             </div>
                             <h3 class="text-xl font-bold">General Ledger</h3>
                         </div>
                         <ul class="space-y-2 text-gray-700 text-sm">
-                            <li>• Multi-dimensional chart of accounts</li>
-                            <li>• Multi-entity and multi-plant support</li>
+                            <li>• Unlimited dimensions for detailed reporting</li>
+                            <li>• Multi-entity and multi-plant consolidations</li>
                             <li>• Automated journal entries from operations</li>
+                            <li>• Inter-company transactions</li>
                             <li>• Real-time financial statements</li>
                             <li>• Drill-down to source transactions</li>
                         </ul>
@@ -138,30 +210,17 @@
                     <div class="bg-white border border-gray-200 rounded-xl p-6 shadow hover:shadow-lg transition">
                         <div class="flex items-center mb-4">
                             <div class="bg-green-100 rounded-lg p-3 mr-4">
-                                <i data-lucide="receipt" class="w-8 h-8 text-green-600"></i>
-                            </div>
-                            <h3 class="text-xl font-bold">Accounts Receivable</h3>
-                        </div>
-                        <ul class="space-y-2 text-gray-700 text-sm">
-                            <li>• Automatic invoice generation from tickets</li>
-                            <li>• Progress billing & retention tracking</li>
-                            <li>• Customer credit limit management</li>
-                            <li>• Collections workflow automation</li>
-                            <li>• Aging reports & dunning letters</li>
-                        </ul>
-                    </div>
-
-                    <div class="bg-white border border-gray-200 rounded-xl p-6 shadow hover:shadow-lg transition">
-                        <div class="flex items-center mb-4">
-                            <div class="bg-purple-100 rounded-lg p-3 mr-4">
-                                <i data-lucide="credit-card" class="w-8 h-8 text-purple-600"></i>
+                                <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                                </svg>
                             </div>
                             <h3 class="text-xl font-bold">Accounts Payable</h3>
                         </div>
                         <ul class="space-y-2 text-gray-700 text-sm">
-                            <li>• AI-powered invoice capture</li>
+                            <li>• AI-powered bill capture & data entry</li>
                             <li>• 3-way PO matching automation</li>
                             <li>• Vendor management & 1099 tracking</li>
+                            <li>• Automated payment workflows</li>
                             <li>• Early payment discount optimization</li>
                             <li>• ACH & check printing integration</li>
                         </ul>
@@ -169,8 +228,29 @@
 
                     <div class="bg-white border border-gray-200 rounded-xl p-6 shadow hover:shadow-lg transition">
                         <div class="flex items-center mb-4">
+                            <div class="bg-purple-100 rounded-lg p-3 mr-4">
+                                <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 14l6-6m-5.5.5h.01m4.99 5h.01M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16l3.5-2 3.5 2 3.5-2 3.5 2zM10 8.5a.5.5 0 11-1 0 .5.5 0 011 0zm5 5a.5.5 0 11-1 0 .5.5 0 011 0z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-bold">Accounts Receivable</h3>
+                        </div>
+                        <ul class="space-y-2 text-gray-700 text-sm">
+                            <li>• Automated invoice generation from tickets</li>
+                            <li>• Progress billing & retention tracking</li>
+                            <li>• Electronic payment processing</li>
+                            <li>• Collections management workflows</li>
+                            <li>• Customer credit monitoring</li>
+                            <li>• Aging reports & dunning letters</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white border border-gray-200 rounded-xl p-6 shadow hover:shadow-lg transition">
+                        <div class="flex items-center mb-4">
                             <div class="bg-yellow-100 rounded-lg p-3 mr-4">
-                                <i data-lucide="landmark" class="w-8 h-8 text-yellow-600"></i>
+                                <svg class="w-8 h-8 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                </svg>
                             </div>
                             <h3 class="text-xl font-bold">Cash Management</h3>
                         </div>
@@ -179,6 +259,7 @@
                             <li>• Automated bank reconciliation</li>
                             <li>• Cash flow forecasting</li>
                             <li>• Bank feed integration</li>
+                            <li>• Payment processing tracking</li>
                             <li>• Treasury management tools</li>
                         </ul>
                     </div>
@@ -186,141 +267,343 @@
                     <div class="bg-white border border-gray-200 rounded-xl p-6 shadow hover:shadow-lg transition">
                         <div class="flex items-center mb-4">
                             <div class="bg-red-100 rounded-lg p-3 mr-4">
-                                <i data-lucide="target" class="w-8 h-8 text-red-600"></i>
+                                <svg class="w-8 h-8 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                                </svg>
                             </div>
-                            <h3 class="text-xl font-bold">Job Costing</h3>
+                            <h3 class="text-xl font-bold">Cost Analysis</h3>
                         </div>
                         <ul class="space-y-2 text-gray-700 text-sm">
-                            <li>• Per-load profitability tracking</li>
-                            <li>• Project-based cost accumulation</li>
-                            <li>• Budget vs. actual analysis</li>
-                            <li>• Profit margin by customer/job</li>
-                            <li>• Mix design cost optimization</li>
+                            <li>• Cost per ton by material and location</li>
+                            <li>• Cost per yard for readymix batches</li>
+                            <li>• Production cost tracking by equipment</li>
+                            <li>• Budget vs. actual variance analysis</li>
+                            <li>• Profitability by customer/project</li>
+                            <li>• Break-even analysis dashboards</li>
                         </ul>
                     </div>
 
                     <div class="bg-white border border-gray-200 rounded-xl p-6 shadow hover:shadow-lg transition">
                         <div class="flex items-center mb-4">
                             <div class="bg-indigo-100 rounded-lg p-3 mr-4">
-                                <i data-lucide="mountain" class="w-8 h-8 text-indigo-600"></i>
+                                <svg class="w-8 h-8 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+                                </svg>
                             </div>
-                            <h3 class="text-xl font-bold">Aggregate Inventory</h3>
+                            <h3 class="text-xl font-bold">Fixed Assets</h3>
                         </div>
                         <ul class="space-y-2 text-gray-700 text-sm">
-                            <li>• Drone-based inventory valuation</li>
-                            <li>• Real-time stockpile tracking</li>
-                            <li>• Automatic COGS calculations</li>
-                            <li>• Shrinkage and variance analysis</li>
-                            <li>• Multi-location consolidation</li>
+                            <li>• Complete equipment lifecycle tracking</li>
+                            <li>• Multiple depreciation methods</li>
+                            <li>• Book vs. tax depreciation</li>
+                            <li>• Asset transfers & disposals</li>
+                            <li>• Maintenance cost allocation</li>
+                            <li>• Compliance reporting (ASC 842)</li>
                         </ul>
                     </div>
 
                 </div>
             </section>
 
-            <!-- Unique Features -->
+            <!-- ERP Integration Benefits -->
             <section class="mb-16 bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-12">
-                <h2 class="text-3xl font-extrabold mb-8 text-center">Unique AggLogic Financial Features</h2>
+                <h2 class="text-3xl font-extrabold mb-8 text-center">Seamless Integration Across Your Entire Operation</h2>
+                <p class="text-center text-xl text-gray-700 mb-12 max-w-4xl mx-auto">See how AggLogic Accounting connects with every module in your ERP system to create a single source of financial truth.</p>
 
                 <div class="grid md:grid-cols-2 gap-8">
+
                     <div class="bg-white rounded-xl p-6 shadow-lg">
-                        <div class="flex items-center gap-4 mb-4">
-                            <div class="bg-orange-100 rounded-lg p-3">
-                                <i data-lucide="plane" class="w-8 h-8 text-orange-600"></i>
-                            </div>
-                            <h3 class="text-xl font-bold">Drone Inventory to GL</h3>
+                        <div class="flex items-center mb-4">
+                            <span class="bg-orange-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-3">1</span>
+                            <h3 class="text-xl font-bold">Quarry/Production Integration</h3>
                         </div>
-                        <p class="text-gray-700 mb-4">Drone-scanned stockpile volumes automatically calculate inventory valuations and post to your general ledger. No more manual inventory counts or guesswork.</p>
-                        <ul class="space-y-2 text-gray-600 text-sm">
-                            <li>✓ Real-time inventory valuation</li>
-                            <li>✓ Automatic variance detection</li>
-                            <li>✓ Historical tracking and trending</li>
+                        <ul class="space-y-2 text-gray-700">
+                            <li>✓ Production volumes automatically create COGS entries</li>
+                            <li>✓ Equipment hours allocate costs to specific materials</li>
+                            <li>✓ Blasting and crushing costs tracked by stockpile</li>
+                            <li>✓ Real-time production efficiency impacts P&L</li>
+                            <li>✓ Waste and overburden costs properly allocated</li>
                         </ul>
                     </div>
 
                     <div class="bg-white rounded-xl p-6 shadow-lg">
-                        <div class="flex items-center gap-4 mb-4">
-                            <div class="bg-orange-100 rounded-lg p-3">
-                                <i data-lucide="microscope" class="w-8 h-8 text-orange-600"></i>
-                            </div>
-                            <h3 class="text-xl font-bold">Quality Cost Tracking</h3>
+                        <div class="flex items-center mb-4">
+                            <span class="bg-green-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-3">2</span>
+                            <h3 class="text-xl font-bold">Inventory/Stockpile Integration</h3>
                         </div>
-                        <p class="text-gray-700 mb-4">AI aggregate analysis results flow directly to quality cost tracking. Know exactly how much quality issues are costing you per project or customer.</p>
-                        <ul class="space-y-2 text-gray-600 text-sm">
-                            <li>✓ Rejection cost analysis</li>
-                            <li>✓ Rework expense tracking</li>
-                            <li>✓ Quality improvement ROI</li>
+                        <ul class="space-y-2 text-gray-700">
+                            <li>✓ Drone inventory valuations post to GL automatically</li>
+                            <li>✓ Stockpile depletion creates accurate COGS</li>
+                            <li>✓ Multi-location inventory consolidation</li>
+                            <li>✓ Automatic variance accounting for shrinkage</li>
+                            <li>✓ Real-time inventory value on balance sheet</li>
                         </ul>
                     </div>
 
                     <div class="bg-white rounded-xl p-6 shadow-lg">
-                        <div class="flex items-center gap-4 mb-4">
-                            <div class="bg-orange-100 rounded-lg p-3">
-                                <i data-lucide="bar-chart" class="w-8 h-8 text-orange-600"></i>
-                            </div>
-                            <h3 class="text-xl font-bold">Multi-Plant Consolidation</h3>
+                        <div class="flex items-center mb-4">
+                            <span class="bg-purple-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-3">3</span>
+                            <h3 class="text-xl font-bold">HR & Payroll Integration</h3>
                         </div>
-                        <p class="text-gray-700 mb-4">Manage financials across multiple plants, quarries, and locations with automated consolidation and inter-company transactions.</p>
-                        <ul class="space-y-2 text-gray-600 text-sm">
-                            <li>✓ Plant-level P&L</li>
-                            <li>✓ Consolidated reporting</li>
-                            <li>✓ Inter-company eliminations</li>
+                        <ul class="space-y-2 text-gray-700">
+                            <li>✓ Payroll costs distributed to production areas</li>
+                            <li>✓ Labor burden rates applied to cost per ton/yard</li>
+                            <li>✓ Equipment operator costs allocated properly</li>
+                            <li>✓ Benefits and overhead tracked by department</li>
+                            <li>✓ PTO accruals integrated with financials</li>
                         </ul>
                     </div>
 
                     <div class="bg-white rounded-xl p-6 shadow-lg">
-                        <div class="flex items-center gap-4 mb-4">
-                            <div class="bg-orange-100 rounded-lg p-3">
-                                <i data-lucide="leaf" class="w-8 h-8 text-orange-600"></i>
-                            </div>
-                            <h3 class="text-xl font-bold">Sustainability Reporting</h3>
+                        <div class="flex items-center mb-4">
+                            <span class="bg-yellow-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-3">4</span>
+                            <h3 class="text-xl font-bold">Sales & Customer Orders</h3>
                         </div>
-                        <p class="text-gray-700 mb-4">Environmental Product Declaration (EPD) generation and carbon cost tracking integrated with your financial reporting.</p>
-                        <ul class="space-y-2 text-gray-600 text-sm">
-                            <li>✓ Carbon cost allocation</li>
-                            <li>✓ EPD automation</li>
-                            <li>✓ Sustainability metrics</li>
+                        <ul class="space-y-2 text-gray-700">
+                            <li>✓ Contract pricing flows to AR invoicing</li>
+                            <li>✓ Customer credit limits enforced at order entry</li>
+                            <li>✓ Price adjustments and fuel surcharges automated</li>
+                            <li>✓ Volume commitments tracked against revenue</li>
+                            <li>✓ Customer deposits properly accounted</li>
                         </ul>
+                    </div>
+
+                    <div class="bg-white rounded-xl p-6 shadow-lg">
+                        <div class="flex items-center mb-4">
+                            <span class="bg-red-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-3">5</span>
+                            <h3 class="text-xl font-bold">Dispatch/Delivery Integration</h3>
+                        </div>
+                        <ul class="space-y-2 text-gray-700">
+                            <li>✓ Scale tickets automatically create invoices</li>
+                            <li>✓ Delivery costs allocated to specific loads</li>
+                            <li>✓ Fuel surcharges calculated and applied</li>
+                            <li>✓ Driver settlements linked to AP</li>
+                            <li>✓ Proof of delivery triggers billing automation</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white rounded-xl p-6 shadow-lg">
+                        <div class="flex items-center mb-4">
+                            <span class="bg-indigo-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-3">6</span>
+                            <h3 class="text-xl font-bold">Quality/Compliance Integration</h3>
+                        </div>
+                        <ul class="space-y-2 text-gray-700">
+                            <li>✓ Testing costs tracked by material and customer</li>
+                            <li>✓ Rejection costs create variance entries</li>
+                            <li>✓ Quality control expenses allocated properly</li>
+                            <li>✓ Compliance costs tracked separately</li>
+                            <li>✓ Certificate of analysis linked to invoices</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Industry-Specific Features -->
+            <section class="mb-16">
+                <div class="bg-gray-50 rounded-2xl p-10">
+                    <h2 class="text-3xl font-extrabold mb-6 text-center">Built for Aggregates & Readymix Operations</h2>
+                    <p class="text-center text-lg text-gray-700 mb-10 max-w-3xl mx-auto">Generic accounting software doesn't understand your business. AggLogic Accounting is purpose-built for the unique financial requirements of aggregates and readymix operations.</p>
+
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div>
+                            <h3 class="text-xl font-bold mb-4 text-orange-600">Aggregates-Specific Features</h3>
+                            <ul class="space-y-3 text-gray-700">
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-6 h-6 text-green-600 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    <div>
+                                        <strong>Cost Per Ton Analytics:</strong> Real-time tracking of production, processing, and delivery costs per ton by material type
+                                    </div>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-6 h-6 text-green-600 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    <div>
+                                        <strong>Royalty & Lease Tracking:</strong> Automated calculation and accrual of royalties based on extracted tonnage with payment schedules
+                                    </div>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-6 h-6 text-green-600 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    <div>
+                                        <strong>Equipment Cost Allocation:</strong> Track crusher, loader, and processing equipment costs allocated to specific materials
+                                    </div>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-6 h-6 text-green-600 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    <div>
+                                        <strong>Drone Inventory Integration:</strong> Automated stockpile valuations from drone surveys posted directly to GL
+                                    </div>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-6 h-6 text-green-600 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    <div>
+                                        <strong>Reclamation Cost Accruals:</strong> Track and accrue future site reclamation and restoration obligations
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h3 class="text-xl font-bold mb-4 text-orange-600">Readymix-Specific Features</h3>
+                            <ul class="space-y-3 text-gray-700">
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-6 h-6 text-green-600 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    <div>
+                                        <strong>Cost Per Yard Tracking:</strong> Complete batch-level costing including materials, labor, equipment, and delivery
+                                    </div>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-6 h-6 text-green-600 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    <div>
+                                        <strong>Batch Ticket Integration:</strong> Every batch automatically creates cost entries and links to customer invoices
+                                    </div>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-6 h-6 text-green-600 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    <div>
+                                        <strong>Fuel Surcharge Automation:</strong> Dynamic fuel surcharge calculation and application based on current diesel prices
+                                    </div>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-6 h-6 text-green-600 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    <div>
+                                        <strong>Mix Design Profitability:</strong> Analyze profitability by mix design, strength class, and admixture usage
+                                    </div>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-6 h-6 text-green-600 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    <div>
+                                        <strong>Short Load & Overage Billing:</strong> Automated billing adjustments for actual vs. ordered quantities
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <!-- IntraSync Integration -->
+            <!-- AI-Powered Features -->
             <section class="mb-16">
-                <div class="bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-2xl p-10">
-                    <div class="flex items-center gap-4 mb-6">
-                        <i data-lucide="puzzle" class="w-12 h-12"></i>
-                        <h2 class="text-3xl font-extrabold">Part of the IntraSync Industrial Platform</h2>
+                <div class="bg-gradient-to-r from-orange-600 to-amber-600 text-white rounded-xl p-8">
+                    <h3 class="text-2xl font-bold mb-4">AI-Powered Financial Intelligence with AggChat</h3>
+                    <div class="grid md:grid-cols-2 gap-6 mb-6">
+                        <div>
+                            <h4 class="font-bold mb-2">Intelligent Automation</h4>
+                            <ul class="space-y-2 text-orange-100">
+                                <li>• AI bill capture extracts data from any invoice format</li>
+                                <li>• Smart GL coding learns from your historical patterns</li>
+                                <li>• Automated vendor matching and duplicate detection</li>
+                                <li>• Predictive cash flow forecasting by material and customer</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-bold mb-2">Anomaly Detection</h4>
+                            <ul class="space-y-2 text-orange-100">
+                                <li>• Scan thousands of transactions for outliers</li>
+                                <li>• Flag unusual cost per ton/yard variations</li>
+                                <li>• Identify potential fraud or errors</li>
+                                <li>• Continuous audit trail monitoring</li>
+                            </ul>
+                        </div>
                     </div>
-                    <p class="text-xl text-blue-100 mb-8">AggLogic Accounting integrates with the complete IntraSync Industrial ecosystem for end-to-end concrete industry management.</p>
-                    <div class="grid md:grid-cols-3 gap-6">
-                        <div class="bg-white/10 rounded-lg p-6">
-                            <h3 class="font-bold mb-2">CastLogic ERP</h3>
-                            <p class="text-blue-100 text-sm">Full ERP for precast manufacturers with project accounting, production planning, and integrated financials.</p>
-                        </div>
-                        <div class="bg-white/10 rounded-lg p-6">
-                            <h3 class="font-bold mb-2">BatchLogic</h3>
-                            <p class="text-blue-100 text-sm">Advanced batch plant control with AI automation and proprietary sensors for precision batching.</p>
-                        </div>
-                        <div class="bg-white/10 rounded-lg p-6">
-                            <h3 class="font-bold mb-2">AggLogic</h3>
-                            <p class="text-blue-100 text-sm">Complete readymix & aggregates platform with drone scanning, AI quality control, and ERP accounting.</p>
+                    <div class="bg-white/10 rounded-lg p-6">
+                        <h4 class="font-bold mb-3 flex items-center gap-2">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"></path>
+                            </svg>
+                            AggChat AI Assistant
+                        </h4>
+                        <p class="text-orange-100 mb-3">Ask natural language questions about your financials and get instant insights:</p>
+                        <div class="grid md:grid-cols-2 gap-3 text-sm">
+                            <div class="bg-white/5 rounded p-3">"What's our cost per ton trend for 3/4" gravel this quarter?"</div>
+                            <div class="bg-white/5 rounded p-3">"Which customers have the highest profit margin on 4000 PSI mix?"</div>
+                            <div class="bg-white/5 rounded p-3">"Show me fuel costs by delivery zone this month"</div>
+                            <div class="bg-white/5 rounded p-3">"What's our AR aging by customer segment?"</div>
                         </div>
                     </div>
-                    <div class="text-center mt-8">
-                        <a href="https://intrasyncindustrial.com" class="inline-block bg-white text-blue-600 px-8 py-3 rounded-lg font-bold hover:bg-blue-50 transition">Explore IntraSync Industrial →</a>
+                </div>
+            </section>
+
+            <!-- Reporting & Analytics -->
+            <section class="mb-16">
+                <h2 class="text-3xl font-extrabold mb-8 text-center">Powerful Reporting & Real-Time Dashboards</h2>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="bg-white rounded-xl shadow-lg p-6 border-t-4 border-orange-600">
+                        <h3 class="text-xl font-bold mb-4">Financial Statements</h3>
+                        <ul class="space-y-2 text-gray-700 text-sm">
+                            <li>✓ Balance Sheet with inventory breakdown</li>
+                            <li>✓ Income Statement (P&L) by location</li>
+                            <li>✓ Cash Flow Statement</li>
+                            <li>✓ Statement of Changes in Equity</li>
+                            <li>✓ Comparative & Consolidated reports</li>
+                            <li>✓ Multi-period analysis</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-lg p-6 border-t-4 border-green-600">
+                        <h3 class="text-xl font-bold mb-4">Operational Reports</h3>
+                        <ul class="space-y-2 text-gray-700 text-sm">
+                            <li>✓ Cost Per Ton/Yard Analysis</li>
+                            <li>✓ Profitability by Material/Mix</li>
+                            <li>✓ Customer Profitability Analysis</li>
+                            <li>✓ Aged AR/AP Reports</li>
+                            <li>✓ Vendor Spend Analysis</li>
+                            <li>✓ Equipment Cost Allocation</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-lg p-6 border-t-4 border-purple-600">
+                        <h3 class="text-xl font-bold mb-4">Compliance Reports</h3>
+                        <ul class="space-y-2 text-gray-700 text-sm">
+                            <li>✓ 1099 & 1096 Reporting</li>
+                            <li>✓ Sales Tax Returns by jurisdiction</li>
+                            <li>✓ Fixed Asset Schedules</li>
+                            <li>✓ Audit Trail Reports</li>
+                            <li>✓ Royalty Payment Reports</li>
+                            <li>✓ Environmental Compliance Costs</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="mt-8 bg-orange-600 text-white rounded-xl p-8 text-center">
+                    <h3 class="text-2xl font-bold mb-3">Custom Dashboard Builder</h3>
+                    <p class="text-lg mb-4">Create unlimited custom dashboards with drag-and-drop widgets showing the exact KPIs you need:</p>
+                    <div class="grid md:grid-cols-4 gap-4 text-sm">
+                        <div>Revenue by Material Type</div>
+                        <div>Cost Per Ton Trends</div>
+                        <div>Cash Position Forecast</div>
+                        <div>Days Sales Outstanding</div>
                     </div>
                 </div>
             </section>
 
             <!-- CTA Section -->
             <section class="text-center">
-                <div class="bg-gradient-to-r from-orange-600 to-orange-800 rounded-2xl p-12 text-white">
+                <div class="bg-gradient-to-r from-orange-600 to-amber-600 rounded-2xl p-12 text-white">
                     <h2 class="text-4xl font-extrabold mb-4">Ready to Transform Your Financial Operations?</h2>
-                    <p class="text-xl mb-8 max-w-3xl mx-auto">Experience the power of operations-to-financial integration. See how AggLogic connects your plant and quarry operations directly to your financial systems.</p>
+                    <p class="text-xl mb-8 max-w-3xl mx-auto">Experience the power of fully integrated ERP accounting built specifically for aggregates and readymix. See how AggLogic connects your entire operation from quarry to profit.</p>
                     <div class="flex flex-col sm:flex-row gap-4 justify-center">
                         <a href="contact.html" class="bg-white text-orange-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition">Schedule a Demo</a>
-                        <a href="modules.html" class="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white hover:text-orange-600 transition">Explore All Features</a>
+                        <a href="modules.html" class="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white hover:text-orange-600 transition">Explore All Modules</a>
                     </div>
                 </div>
             </section>
@@ -328,16 +611,12 @@
         </div>
     </main>
 
-    <!-- Footer -->
-    <footer class="bg-gray-50 text-gray-800 mt-16">
+    <footer class="bg-gray-50 text-gray-800">
         <div class="container mx-auto px-6 py-16">
             <div class="grid md:grid-cols-5 gap-8 mb-12">
                 <div class="md:col-span-2">
-                    <div class="flex items-center mb-4">
-                        <img src="https://intrasyncindustrial.com/images/logo.jpg" alt="IntraSync Industrial Logo" class="h-10 mr-3" onerror="this.onerror=null;this.src='https://placehold.co/160x40/ea580c/FFFFFF?text=AggLogic';">
-                        <span class="text-xl font-bold gradient-text">AggLogic</span>
-                    </div>
-                    <p class="text-gray-600 mb-6">The AI-powered operating system for readymix concrete and aggregate producers with complete ERP capabilities. Part of the IntraSync Industrial platform.</p>
+                    <img src="logo.png" alt="AggLogic" class="h-10 mb-4">
+                    <p class="text-gray-600 mb-6">The complete ERP platform built specifically for aggregates and readymix operations. Automate from quarry to invoice with AI-powered intelligence.</p>
                     <div class="flex gap-4">
                         <a href="https://www.linkedin.com/company/intrasync-industrial" target="_blank" rel="noopener noreferrer" class="w-10 h-10 bg-orange-600 rounded-full flex items-center justify-center hover:bg-orange-700 transition">
                             <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
@@ -345,31 +624,34 @@
                     </div>
                 </div>
                 <div>
-                    <h3 class="font-bold text-gray-900 mb-4">Product</h3>
+                    <h3 class="font-bold text-gray-900 mb-4">ERP Modules</h3>
                     <ul class="space-y-2">
-                        <li><a href="modules.html" class="hover:text-orange-600 transition">All Features</a></li>
                         <li><a href="accounting.html" class="hover:text-orange-600 transition">Accounting</a></li>
-                        <li><a href="drone-scanning.html" class="hover:text-orange-600 transition">Drone Scanning</a></li>
-                        <li><a href="aggregate-analysis.html" class="hover:text-orange-600 transition">Aggregate Analysis</a></li>
+                        <li><a href="hr.html" class="hover:text-orange-600 transition">HR & Payroll</a></li>
+                        <li><a href="dispatch.html" class="hover:text-orange-600 transition">Dispatch</a></li>
+                        <li><a href="modules.html" class="hover:text-orange-600 transition">All Modules</a></li>
                     </ul>
                 </div>
                 <div>
-                    <h3 class="font-bold text-gray-900 mb-4">Resources</h3>
+                    <h3 class="font-bold text-gray-900 mb-4">Features</h3>
                     <ul class="space-y-2">
+                        <li><a href="drone-scanning.html" class="hover:text-orange-600 transition">Drone Scanning</a></li>
+                        <li><a href="aggregate-analysis.html" class="hover:text-orange-600 transition">Aggregate Analysis</a></li>
                         <li><a href="blog.html" class="hover:text-orange-600 transition">Blog</a></li>
-                        <li><a href="faq.html" class="hover:text-orange-600 transition">FAQ</a></li>
                         <li><a href="contact.html" class="hover:text-orange-600 transition">Support</a></li>
                     </ul>
                 </div>
                 <div>
-                    <h3 class="font-bold text-gray-900 mb-4">Company</h3>
+                    <h3 class="font-bold text-gray-900 mb-4">IntraSync Products</h3>
                     <ul class="space-y-2">
-                        <li><a href="about.html" class="hover:text-orange-600 transition">About Us</a></li>
-                        <li><a href="contact.html" class="hover:text-orange-600 transition">Contact</a></li>
-                        <li><a href="https://intrasyncindustrial.com" class="hover:text-orange-600 transition">IntraSync Industrial</a></li>
+                        <li><a href="https://intrasyncindustrial.com" class="hover:text-orange-600 transition">CastLogic ERP</a></li>
+                        <li><a href="https://batchlogic.intrasyncindustrial.com" class="hover:text-orange-600 transition">BatchLogic</a></li>
+                        <li><a href="index.html" class="hover:text-orange-600 transition">AggLogic</a></li>
+                        <li><a href="about.html" class="hover:text-orange-600 transition">About IntraSync</a></li>
                     </ul>
                 </div>
             </div>
+
             <div class="border-t border-gray-300 pt-8 flex flex-col md:flex-row justify-between items-center">
                 <p class="text-gray-500 text-sm">&copy; 2025 IntraSync Industrial. All rights reserved.</p>
                 <div class="flex gap-6 text-sm mt-4 md:mt-0">
@@ -379,9 +661,5 @@
             </div>
         </div>
     </footer>
-
-    <script>
-        lucide.createIcons();
-    </script>
 </body>
 </html>

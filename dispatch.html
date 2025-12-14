@@ -3,247 +3,735 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AggLogic Dispatch - Intelligent Truck Dispatching for Readymix & Aggregates</title>
-    <meta name="description" content="Smart dispatch software for readymix and aggregate delivery operations. GPS fleet tracking, optimized routing, customer notifications, and real-time delivery management.">
-    <link rel="canonical" href="https://agglogic.intrasyncindustrial.com/dispatch.html">
+    <title>Dispatch & Delivery Management | AggLogic by IntraSync</title>
+    <meta name="description" content="AI-powered delivery scheduling, route optimization, and GPS tracking for readymix concrete and aggregate operations. Manage logistics from plant to jobsite with complete ERP integration.">
+
+    <!-- Schema.org markup for AI/LLM discovery -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "AggLogic Dispatch",
+      "applicationCategory": "BusinessApplication",
+      "applicationSubCategory": "Logistics Management Software",
+      "operatingSystem": "Web-based, Cloud, Mobile",
+      "isPartOf": {
+        "@type": "SoftwareApplication",
+        "name": "AggLogic ERP",
+        "url": "https://agglogic.intrasyncindustrial.com"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "IntraSync Industrial",
+        "url": "https://intrasyncindustrial.com"
+      },
+      "description": "AI-powered dispatch and delivery management for readymix concrete and aggregate operations. Features intelligent route optimization, GPS fleet tracking, drum monitoring for concrete delivery, weight ticket integration for aggregate hauling, automated ticketing, proof of delivery capture, and seamless integration with batching, quality control, and invoicing.",
+      "featureList": [
+        "AI-powered route optimization",
+        "GPS fleet tracking with real-time visibility",
+        "Readymix drum rotation monitoring",
+        "Aggregate multi-material load management",
+        "Weight ticket integration",
+        "Slump and temperature tracking",
+        "Automated delivery scheduling",
+        "Driver mobile app",
+        "Customer delivery notifications",
+        "Proof of delivery capture",
+        "Integration with billing and invoicing",
+        "ETA prediction and updates",
+        "Delivery optimization algorithms"
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Readymix concrete plants, Aggregate producers, Quarry operators, Dispatch managers, Fleet managers"
+      }
+    }
+    </script>
+
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://agglogic.intrasyncindustrial.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Modules",
+          "item": "https://agglogic.intrasyncindustrial.com/modules.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Dispatch",
+          "item": "https://agglogic.intrasyncindustrial.com/dispatch.html"
+        }
+      ]
+    }
+    </script>
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         body { font-family: 'Inter', sans-serif; }
-        .gradient-text { background: linear-gradient(to right, #d97706, #ea580c); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        .gradient-bg { background: linear-gradient(135deg, #d97706 0%, #ea580c 100%); }
     </style>
 </head>
 <body class="bg-white text-gray-800">
-    <header class="bg-white/95 backdrop-blur-md sticky top-0 z-50 border-b border-orange-200">
-        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="index.html" class="flex items-center">
-                <img src="https://intrasyncindustrial.com/images/logo.jpg" alt="IntraSync Industrial Logo" class="h-12 mr-3">
-                <span class="text-2xl font-bold gradient-text">AggLogic</span>
-            </a>
-            <div class="hidden md:flex items-center space-x-8">
-                <a href="modules.html" class="text-gray-600 hover:text-orange-600 transition-colors font-medium">Features</a>
-                <a href="drone-scanning.html" class="text-gray-600 hover:text-orange-600 transition-colors font-medium">Drone Scanning</a>
-                <a href="aggregate-analysis.html" class="text-gray-600 hover:text-orange-600 transition-colors font-medium">Aggregate Analysis</a>
-                <a href="blog.html" class="text-gray-600 hover:text-orange-600 transition-colors font-medium">Blog</a>
-                <a href="about.html" class="text-gray-600 hover:text-orange-600 transition-colors font-medium">About</a>
-                <a href="contact.html" class="bg-gradient-to-r from-orange-500 to-orange-600 text-white font-semibold px-6 py-2.5 rounded-lg">Request Demo</a>
-            </div>
-        </nav>
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex items-center">
+            <img src="logo.png" alt="AggLogic Logo" class="h-14 w-auto mr-6" style="max-height:56px;">
+            <nav class="flex gap-8 text-lg font-semibold">
+                <a href="index.html" class="hover:text-indigo-700">Home</a>
+                <a href="modules.html" class="text-indigo-700">Modules</a>
+                <a href="drone-scanning.html" class="hover:text-indigo-700">Drone Scanning</a>
+                <a href="aggregate-analysis.html" class="hover:text-indigo-700">Aggregate Analysis</a>
+                <a href="blog.html" class="hover:text-indigo-700">Blog</a>
+                <a href="contact.html" class="hover:text-indigo-700">Contact</a>
+            </nav>
+        </div>
     </header>
 
-    <section class="gradient-bg text-white py-16">
-        <div class="container mx-auto px-6 text-center">
-            <h1 class="text-5xl font-extrabold mb-6">AggLogic Dispatch</h1>
-            <p class="text-2xl mb-4">Intelligent Delivery Management for Readymix & Aggregates</p>
-            <p class="text-xl text-orange-100 max-w-3xl mx-auto">Optimize your fleet with GPS tracking, smart routing, customer notifications, and seamless integration with your plant and quarry operations.</p>
-        </div>
-    </section>
+    <main>
+        <!-- Hero Section -->
+        <section class="bg-gradient-to-r from-indigo-600 to-blue-700 text-white py-20">
+            <div class="container mx-auto px-6">
+                <div class="max-w-4xl">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center text-4xl">🚚</div>
+                        <span class="bg-white/20 px-4 py-2 rounded-full text-sm font-bold">OPERATIONS</span>
+                    </div>
+                    <h1 class="text-5xl md:text-6xl font-extrabold mb-6">Dispatch & Delivery Management</h1>
+                    <p class="text-2xl mb-8 text-indigo-100">AI-powered route optimization, real-time GPS tracking, and seamless delivery execution for readymix concrete and aggregate operations integrated with your entire plant.</p>
+                    <div class="flex gap-4">
+                        <a href="contact.html" class="bg-white text-indigo-700 px-8 py-4 rounded-lg font-bold text-lg hover:bg-indigo-50 transition">Schedule Demo</a>
+                        <a href="#features" class="border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <main class="py-16">
-        <div class="container mx-auto px-6 max-w-6xl">
-            <section class="mb-16">
+        <!-- Standalone vs. Integrated Section -->
+        <section class="py-20 bg-gray-50">
+            <div class="container mx-auto px-6">
                 <div class="text-center mb-12">
-                    <h2 class="text-4xl font-extrabold mb-4">Ticket-to-Delivery Integration</h2>
-                    <p class="text-xl text-gray-600 max-w-4xl mx-auto">AggLogic Dispatch connects directly to your operations—when a load is batched or an aggregate order is created, dispatch knows instantly. Optimize routes, track trucks, and keep customers informed automatically.</p>
+                    <h2 class="text-4xl md:text-5xl font-extrabold mb-4">The Full ERP Advantage: Integrated Dispatch</h2>
+                    <p class="text-xl text-gray-600 max-w-4xl mx-auto">Most delivery systems operate in isolation. AggLogic Dispatch connects your logistics directly to batching, inventory, quality control, and accounting.</p>
                 </div>
 
-                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    <div class="bg-white border border-gray-200 rounded-xl p-6 shadow hover:shadow-lg transition">
-                        <div class="flex items-center mb-4">
-                            <div class="bg-orange-100 rounded-lg p-3 mr-4">
-                                <i data-lucide="map-pin" class="w-8 h-8 text-orange-600"></i>
-                            </div>
-                            <h3 class="text-xl font-bold">GPS Fleet Tracking</h3>
-                        </div>
-                        <ul class="space-y-2 text-gray-700 text-sm">
-                            <li>• Real-time truck location tracking</li>
-                            <li>• Geofencing for site arrival/departure</li>
-                            <li>• Speed and idle time monitoring</li>
-                            <li>• Historical route playback</li>
-                            <li>• Driver behavior scoring</li>
+                <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+                    <div class="bg-red-50 border-2 border-red-200 rounded-xl p-8">
+                        <h3 class="text-2xl font-bold mb-6 text-red-900">❌ Standalone Delivery Software</h3>
+                        <ul class="space-y-3 text-gray-700">
+                            <li class="flex items-start gap-2">
+                                <span class="text-red-600 font-bold">•</span>
+                                <span>Manual data entry from batch tickets and scale tickets</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-red-600 font-bold">•</span>
+                                <span>No visibility into stockpile availability or batch plant capacity</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-red-600 font-bold">•</span>
+                                <span>Delivery tickets created separately from invoicing</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-red-600 font-bold">•</span>
+                                <span>Transportation costs tracked in spreadsheets</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-red-600 font-bold">•</span>
+                                <span>Customer notifications sent manually via phone calls</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-red-600 font-bold">•</span>
+                                <span>Delays in billing after delivery completion</span>
+                            </li>
                         </ul>
                     </div>
 
-                    <div class="bg-white border border-gray-200 rounded-xl p-6 shadow hover:shadow-lg transition">
-                        <div class="flex items-center mb-4">
-                            <div class="bg-green-100 rounded-lg p-3 mr-4">
-                                <i data-lucide="route" class="w-8 h-8 text-green-600"></i>
-                            </div>
-                            <h3 class="text-xl font-bold">Smart Routing</h3>
-                        </div>
-                        <ul class="space-y-2 text-gray-700 text-sm">
-                            <li>• AI-optimized route planning</li>
-                            <li>• Traffic-aware ETA calculations</li>
-                            <li>• Multi-stop route optimization</li>
-                            <li>• Fuel-efficient routing</li>
-                            <li>• Weight-restricted road avoidance</li>
-                        </ul>
-                    </div>
-
-                    <div class="bg-white border border-gray-200 rounded-xl p-6 shadow hover:shadow-lg transition">
-                        <div class="flex items-center mb-4">
-                            <div class="bg-purple-100 rounded-lg p-3 mr-4">
-                                <i data-lucide="bell" class="w-8 h-8 text-purple-600"></i>
-                            </div>
-                            <h3 class="text-xl font-bold">Customer Notifications</h3>
-                        </div>
-                        <ul class="space-y-2 text-gray-700 text-sm">
-                            <li>• Automatic SMS/email alerts</li>
-                            <li>• Live ETA updates</li>
-                            <li>• Delivery confirmation</li>
-                            <li>• Customer portal access</li>
-                            <li>• Delay notifications</li>
-                        </ul>
-                    </div>
-
-                    <div class="bg-white border border-gray-200 rounded-xl p-6 shadow hover:shadow-lg transition">
-                        <div class="flex items-center mb-4">
-                            <div class="bg-yellow-100 rounded-lg p-3 mr-4">
-                                <i data-lucide="clipboard-list" class="w-8 h-8 text-yellow-600"></i>
-                            </div>
-                            <h3 class="text-xl font-bold">Order Management</h3>
-                        </div>
-                        <ul class="space-y-2 text-gray-700 text-sm">
-                            <li>• Drag-and-drop scheduling</li>
-                            <li>• Order prioritization</li>
-                            <li>• Capacity planning</li>
-                            <li>• Customer order history</li>
-                            <li>• Standing order management</li>
-                        </ul>
-                    </div>
-
-                    <div class="bg-white border border-gray-200 rounded-xl p-6 shadow hover:shadow-lg transition">
-                        <div class="flex items-center mb-4">
-                            <div class="bg-red-100 rounded-lg p-3 mr-4">
-                                <i data-lucide="truck" class="w-8 h-8 text-red-600"></i>
-                            </div>
-                            <h3 class="text-xl font-bold">Mixed Fleet Support</h3>
-                        </div>
-                        <ul class="space-y-2 text-gray-700 text-sm">
-                            <li>• Mixer truck management</li>
-                            <li>• Dump truck tracking</li>
-                            <li>• Aggregate haulers</li>
-                            <li>• End dumps and belly dumps</li>
-                            <li>• Conveyor trucks</li>
-                        </ul>
-                    </div>
-
-                    <div class="bg-white border border-gray-200 rounded-xl p-6 shadow hover:shadow-lg transition">
-                        <div class="flex items-center mb-4">
-                            <div class="bg-indigo-100 rounded-lg p-3 mr-4">
-                                <i data-lucide="smartphone" class="w-8 h-8 text-indigo-600"></i>
-                            </div>
-                            <h3 class="text-xl font-bold">Driver Mobile App</h3>
-                        </div>
-                        <ul class="space-y-2 text-gray-700 text-sm">
-                            <li>• Turn-by-turn navigation</li>
-                            <li>• Digital delivery tickets</li>
-                            <li>• Electronic signature capture</li>
-                            <li>• Photo documentation</li>
-                            <li>• Two-way communication</li>
+                    <div class="bg-green-50 border-2 border-green-200 rounded-xl p-8">
+                        <h3 class="text-2xl font-bold mb-6 text-green-900">✅ AggLogic Integrated Dispatch</h3>
+                        <ul class="space-y-3 text-gray-700">
+                            <li class="flex items-start gap-2">
+                                <span class="text-green-600 font-bold">✓</span>
+                                <span>Delivery schedules auto-populate from batch plant and quarry orders</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-green-600 font-bold">✓</span>
+                                <span>Real-time stockpile inventory and batch plant capacity data</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-green-600 font-bold">✓</span>
+                                <span>Ticket creation triggers automatic invoice generation</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-green-600 font-bold">✓</span>
+                                <span>Transportation costs flow to job costing and general ledger</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-green-600 font-bold">✓</span>
+                                <span>Automated customer delivery notifications via SMS and email</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-green-600 font-bold">✓</span>
+                                <span>Revenue recognized at delivery confirmation automatically</span>
+                            </li>
                         </ul>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section class="mb-16 bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-12">
-                <h2 class="text-3xl font-extrabold mb-8 text-center">Readymix + Aggregates Dispatch</h2>
-                <div class="grid md:grid-cols-2 gap-8">
+        <!-- Core Dispatch Modules -->
+        <section id="features" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl font-extrabold mb-4">Complete Dispatch & Logistics Management</h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">Every tool you need to manage deliveries from order entry through delivery completion.</p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+                    <!-- Order Management -->
+                    <div class="bg-white rounded-xl shadow-lg p-8 border border-gray-200 hover:shadow-xl transition">
+                        <div class="w-16 h-16 bg-gradient-to-br from-indigo-100 to-indigo-50 rounded-xl flex items-center justify-center text-3xl mb-4">📋</div>
+                        <h3 class="text-2xl font-bold mb-3">Order Management</h3>
+                        <p class="text-gray-600 mb-4">Centralized order intake and scheduling for concrete pours and aggregate deliveries with automated capacity planning.</p>
+                        <ul class="space-y-2 text-sm text-gray-700">
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                <span>Drag-and-drop scheduling interface</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                <span>Pour time window management</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                <span>Standing order automation</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                <span>Multi-project load consolidation</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Fleet Scheduling -->
+                    <div class="bg-white rounded-xl shadow-lg p-8 border border-gray-200 hover:shadow-xl transition">
+                        <div class="w-16 h-16 bg-gradient-to-br from-indigo-100 to-indigo-50 rounded-xl flex items-center justify-center text-3xl mb-4">🚛</div>
+                        <h3 class="text-2xl font-bold mb-3">Fleet Scheduling</h3>
+                        <p class="text-gray-600 mb-4">Optimize truck assignments for mixers, dump trucks, and aggregate haulers with intelligent capacity balancing.</p>
+                        <ul class="space-y-2 text-sm text-gray-700">
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                <span>Mixed fleet optimization (mixers & dumps)</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                <span>Truck capacity matching</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                <span>Driver scheduling and dispatch</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                <span>Maintenance schedule integration</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- GPS Tracking -->
+                    <div class="bg-white rounded-xl shadow-lg p-8 border border-gray-200 hover:shadow-xl transition">
+                        <div class="w-16 h-16 bg-gradient-to-br from-indigo-100 to-indigo-50 rounded-xl flex items-center justify-center text-3xl mb-4">📍</div>
+                        <h3 class="text-2xl font-bold mb-3">Real-Time GPS Tracking</h3>
+                        <p class="text-gray-600 mb-4">Live visibility into every truck's location with automatic customer notifications and dynamic ETA updates.</p>
+                        <ul class="space-y-2 text-sm text-gray-700">
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                <span>Live truck location mapping</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                <span>Traffic-aware ETA calculation</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                <span>Geofence arrival/departure alerts</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                <span>Historical route playback</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Driver Mobile App -->
+                    <div class="bg-white rounded-xl shadow-lg p-8 border border-gray-200 hover:shadow-xl transition">
+                        <div class="w-16 h-16 bg-gradient-to-br from-indigo-100 to-indigo-50 rounded-xl flex items-center justify-center text-3xl mb-4">📱</div>
+                        <h3 class="text-2xl font-bold mb-3">Driver Mobile App</h3>
+                        <p class="text-gray-600 mb-4">Complete mobile solution for drivers with navigation, digital tickets, and two-way communication with dispatch.</p>
+                        <ul class="space-y-2 text-sm text-gray-700">
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                <span>Turn-by-turn navigation</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                <span>Digital delivery tickets</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                <span>Electronic signature capture</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                <span>Photo documentation</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Digital Ticketing -->
+                    <div class="bg-white rounded-xl shadow-lg p-8 border border-gray-200 hover:shadow-xl transition">
+                        <div class="w-16 h-16 bg-gradient-to-br from-indigo-100 to-indigo-50 rounded-xl flex items-center justify-center text-3xl mb-4">📄</div>
+                        <h3 class="text-2xl font-bold mb-3">Digital Ticketing</h3>
+                        <p class="text-gray-600 mb-4">Automated ticket generation, electronic signatures, and delivery documentation that triggers billing automatically.</p>
+                        <ul class="space-y-2 text-sm text-gray-700">
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                <span>Automatic ticket generation</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                <span>Weight ticket integration</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                <span>Batch data auto-population</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                <span>Instant PDF generation</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Customer Portal -->
+                    <div class="bg-white rounded-xl shadow-lg p-8 border border-gray-200 hover:shadow-xl transition">
+                        <div class="w-16 h-16 bg-gradient-to-br from-indigo-100 to-indigo-50 rounded-xl flex items-center justify-center text-3xl mb-4">👥</div>
+                        <h3 class="text-2xl font-bold mb-3">Customer Portal</h3>
+                        <p class="text-gray-600 mb-4">Self-service portal for customers to track deliveries, view order history, and receive real-time notifications.</p>
+                        <ul class="space-y-2 text-sm text-gray-700">
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                <span>Live delivery tracking links</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                <span>SMS and email notifications</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                <span>Order history and ticket access</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                <span>Real-time ETA updates</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Complete ERP Integration -->
+        <section class="py-20 bg-gradient-to-br from-indigo-50 to-blue-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl md:text-5xl font-extrabold mb-4">Complete ERP Integration</h2>
+                    <p class="text-xl text-gray-600 max-w-4xl mx-auto">AggLogic Dispatch doesn't just manage deliveries—it connects your logistics to every part of your operation.</p>
+                </div>
+
+                <div class="max-w-6xl mx-auto space-y-6">
+                    <!-- Integration 1: Sales & Orders -->
                     <div class="bg-white rounded-xl p-6 shadow-lg">
-                        <div class="flex items-center gap-4 mb-4">
-                            <i data-lucide="droplet" class="w-10 h-10 text-orange-600"></i>
-                            <h3 class="text-xl font-bold">Concrete Delivery</h3>
+                        <div class="flex items-center mb-4">
+                            <span class="bg-indigo-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-3">1</span>
+                            <h3 class="text-xl font-bold">Sales & Order Integration</h3>
                         </div>
-                        <ul class="space-y-2 text-gray-600">
-                            <li>✓ Drum rotation time tracking</li>
-                            <li>✓ Slump and water add monitoring</li>
-                            <li>✓ Pour time windows management</li>
-                            <li>✓ Pump truck coordination</li>
-                            <li>✓ Job site wait time tracking</li>
+                        <ul class="space-y-2 text-gray-700">
+                            <li class="flex items-start gap-2">
+                                <span class="text-green-600">✓</span>
+                                <span>Customer orders instantly create dispatch schedules with delivery windows</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-green-600">✓</span>
+                                <span>Standing orders auto-schedule based on customer preferences and historical patterns</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-green-600">✓</span>
+                                <span>Order modifications sync in real-time to dispatch board and driver apps</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-green-600">✓</span>
+                                <span>Contract pricing and customer requirements automatically applied to deliveries</span>
+                            </li>
                         </ul>
                     </div>
+
+                    <!-- Integration 2: Inventory & Stockpiles -->
                     <div class="bg-white rounded-xl p-6 shadow-lg">
-                        <div class="flex items-center gap-4 mb-4">
-                            <i data-lucide="mountain" class="w-10 h-10 text-orange-600"></i>
-                            <h3 class="text-xl font-bold">Aggregate Delivery</h3>
+                        <div class="flex items-center mb-4">
+                            <span class="bg-indigo-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-3">2</span>
+                            <h3 class="text-xl font-bold">Inventory & Stockpile Integration</h3>
                         </div>
-                        <ul class="space-y-2 text-gray-600">
-                            <li>✓ Tonnage tracking per load</li>
-                            <li>✓ Quarry to site optimization</li>
-                            <li>✓ Scale ticket integration</li>
-                            <li>✓ Multi-material hauling</li>
-                            <li>✓ Stockpile location tracking</li>
+                        <ul class="space-y-2 text-gray-700">
+                            <li class="flex items-start gap-2">
+                                <span class="text-green-600">✓</span>
+                                <span>Real-time visibility into stockpile quantities from drone scanning data</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-green-600">✓</span>
+                                <span>Dispatch prevented for materials with insufficient inventory automatically</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-green-600">✓</span>
+                                <span>Material depletion tracked per load with automatic stockpile updates</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-green-600">✓</span>
+                                <span>Multi-material loads verified against available stockpile locations</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Integration 3: Accounting & Billing -->
+                    <div class="bg-white rounded-xl p-6 shadow-lg">
+                        <div class="flex items-center mb-4">
+                            <span class="bg-indigo-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-3">3</span>
+                            <h3 class="text-xl font-bold">Accounting & Billing Integration</h3>
+                        </div>
+                        <ul class="space-y-2 text-gray-700">
+                            <li class="flex items-start gap-2">
+                                <span class="text-green-600">✓</span>
+                                <span>Delivery ticket completion triggers automatic invoice generation</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-green-600">✓</span>
+                                <span>Revenue recognized at delivery confirmation (ASC 606 compliance supported)</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-green-600">✓</span>
+                                <span>Transportation and delivery costs flow to job costing in real-time</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-green-600">✓</span>
+                                <span>Per-load profitability visible immediately with cost and revenue tracking</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Integration 4: Quality Control -->
+                    <div class="bg-white rounded-xl p-6 shadow-lg">
+                        <div class="flex items-center mb-4">
+                            <span class="bg-indigo-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-3">4</span>
+                            <h3 class="text-xl font-bold">Quality Control Integration</h3>
+                        </div>
+                        <ul class="space-y-2 text-gray-700">
+                            <li class="flex items-start gap-2">
+                                <span class="text-green-600">✓</span>
+                                <span>Slump and temperature data tracked at batching flows to delivery ticket</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-green-600">✓</span>
+                                <span>Water add tracking with alerts for quality threshold violations</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-green-600">✓</span>
+                                <span>Drum rotation time monitoring for concrete freshness compliance</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-green-600">✓</span>
+                                <span>Aggregate gradation and quality test results attached to delivery records</span>
+                            </li>
                         </ul>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section class="mb-16">
-                <div class="bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-2xl p-10">
-                    <div class="flex items-center gap-4 mb-6">
-                        <i data-lucide="puzzle" class="w-12 h-12"></i>
-                        <h2 class="text-3xl font-extrabold">Part of the IntraSync Industrial Platform</h2>
+        <!-- Industry-Specific Features -->
+        <section class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl font-extrabold mb-4">Built for Readymix & Aggregate Operations</h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">Dispatch challenges unique to concrete and aggregate delivery require specialized solutions.</p>
+                </div>
+
+                <div class="max-w-4xl mx-auto space-y-6">
+                    <div class="flex items-start gap-3 bg-white p-6 rounded-xl shadow">
+                        <svg class="w-6 h-6 text-indigo-600 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        <div>
+                            <strong>Readymix Drum Monitoring:</strong> Track drum rotation time, slump values, water additions, and concrete temperature from batching through delivery. Automated alerts prevent out-of-spec deliveries.
+                        </div>
                     </div>
-                    <p class="text-xl text-blue-100 mb-8">AggLogic Dispatch integrates with AggLogic operations, BatchLogic batching, and the complete IntraSync ecosystem.</p>
-                    <div class="text-center">
-                        <a href="https://intrasyncindustrial.com" class="inline-block bg-white text-blue-600 px-8 py-3 rounded-lg font-bold hover:bg-blue-50 transition">Explore IntraSync Industrial →</a>
+
+                    <div class="flex items-start gap-3 bg-white p-6 rounded-xl shadow">
+                        <svg class="w-6 h-6 text-indigo-600 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        <div>
+                            <strong>Aggregate Multi-Material Loads:</strong> Manage complex loads with multiple aggregate types (sand, gravel, crushed stone) with automatic tonnage allocation and separate pricing per material.
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-3 bg-white p-6 rounded-xl shadow">
+                        <svg class="w-6 h-6 text-indigo-600 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        <div>
+                            <strong>Weight Ticket Integration:</strong> Direct integration with truck scales for accurate tonnage capture. Automatic variance detection between ordered and delivered quantities with reconciliation workflows.
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-3 bg-white p-6 rounded-xl shadow">
+                        <svg class="w-6 h-6 text-indigo-600 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        <div>
+                            <strong>Slump & Temperature Tracking:</strong> Real-time monitoring of concrete properties from batch plant through delivery. Automatic documentation on delivery tickets with trend analysis and compliance reporting.
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-3 bg-white p-6 rounded-xl shadow">
+                        <svg class="w-6 h-6 text-indigo-600 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        <div>
+                            <strong>Delivery Window Optimization:</strong> Coordinate concrete pours with contractor schedules and optimize aggregate deliveries to minimize truck queue times at busy construction sites.
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-3 bg-white p-6 rounded-xl shadow">
+                        <svg class="w-6 h-6 text-indigo-600 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        <div>
+                            <strong>Quarry-to-Site Optimization:</strong> Intelligent routing from multiple quarry locations to delivery sites, factoring in material availability, haul distance, and traffic patterns for optimal fleet utilization.
+                        </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section class="text-center">
-                <div class="bg-gradient-to-r from-orange-600 to-orange-800 rounded-2xl p-12 text-white">
-                    <h2 class="text-4xl font-extrabold mb-4">Ready to Optimize Your Deliveries?</h2>
-                    <p class="text-xl mb-8 max-w-3xl mx-auto">See how AggLogic Dispatch can improve on-time delivery and reduce fleet costs.</p>
-                    <a href="contact.html" class="bg-white text-orange-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition">Schedule a Demo</a>
+        <!-- AI-Powered Features -->
+        <section class="py-20 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl font-extrabold mb-4">AI-Powered Route Optimization & Forecasting</h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">Advanced algorithms optimize your fleet operations and predict delivery patterns.</p>
                 </div>
-            </section>
-        </div>
+
+                <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+                    <div class="bg-white rounded-xl p-8 shadow-lg">
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="w-16 h-16 bg-gradient-to-br from-indigo-100 to-indigo-50 rounded-xl flex items-center justify-center text-3xl">🗺️</div>
+                            <h3 class="text-2xl font-bold">Intelligent Route Optimization</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">Machine learning algorithms analyze traffic patterns, delivery windows, and historical data to create the most efficient routes.</p>
+                        <ul class="space-y-3 text-gray-700">
+                            <li class="flex items-start gap-2">
+                                <span class="text-indigo-600">•</span>
+                                <span>Multi-stop route sequencing with time window constraints</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-indigo-600">•</span>
+                                <span>Live traffic integration with dynamic re-routing</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-indigo-600">•</span>
+                                <span>Fuel cost optimization and carbon footprint reduction</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-indigo-600">•</span>
+                                <span>Load consolidation across multiple customers and sites</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white rounded-xl p-8 shadow-lg">
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="w-16 h-16 bg-gradient-to-br from-indigo-100 to-indigo-50 rounded-xl flex items-center justify-center text-3xl">📊</div>
+                            <h3 class="text-2xl font-bold">Demand Forecasting</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">AI analyzes historical order patterns, seasonal trends, and market conditions to predict demand and optimize fleet capacity.</p>
+                        <ul class="space-y-3 text-gray-700">
+                            <li class="flex items-start gap-2">
+                                <span class="text-indigo-600">•</span>
+                                <span>Predictive scheduling based on customer order patterns</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-indigo-600">•</span>
+                                <span>Seasonal demand analysis for fleet planning</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-indigo-600">•</span>
+                                <span>Capacity utilization optimization across plants</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-indigo-600">•</span>
+                                <span>Weather impact prediction on delivery operations</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Real-Time Visibility -->
+        <section class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl font-extrabold mb-4">Complete Real-Time Visibility</h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">Know exactly where every truck is, when it will arrive, and proof of every delivery.</p>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                    <div class="bg-gradient-to-br from-indigo-50 to-blue-50 rounded-xl p-8">
+                        <div class="text-4xl mb-4">📍</div>
+                        <h3 class="text-xl font-bold mb-3">Live GPS Tracking</h3>
+                        <p class="text-gray-700">Real-time map view showing all active deliveries with truck icons, customer locations, and planned routes. See exactly where every vehicle is at any moment.</p>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-indigo-50 to-blue-50 rounded-xl p-8">
+                        <div class="text-4xl mb-4">⏱️</div>
+                        <h3 class="text-xl font-bold mb-3">Dynamic ETA Updates</h3>
+                        <p class="text-gray-700">Continuously updated arrival times based on current traffic, weather conditions, and actual delivery progress. Customers receive automatic notifications of any changes.</p>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-indigo-50 to-blue-50 rounded-xl p-8">
+                        <div class="text-4xl mb-4">📸</div>
+                        <h3 class="text-xl font-bold mb-3">Proof of Delivery</h3>
+                        <p class="text-gray-700">Comprehensive delivery documentation including GPS coordinates, timestamps, electronic signatures, and photo evidence. All data stored for compliance and dispute resolution.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="bg-gradient-to-r from-indigo-600 to-blue-700 text-white py-20">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl md:text-5xl font-extrabold mb-6">Transform Your Delivery Operations</h2>
+                <p class="text-xl mb-8 max-w-3xl mx-auto text-indigo-100">See how AggLogic Dispatch integrates with your entire operation to eliminate manual processes, reduce delivery costs, and improve customer satisfaction.</p>
+                <a href="contact.html" class="inline-block bg-white text-indigo-700 px-8 py-4 rounded-lg font-bold text-lg hover:bg-indigo-50 transition">Schedule Your Demo →</a>
+            </div>
+        </section>
     </main>
 
-    <footer class="bg-gray-900 text-white mt-16">
+    <footer class="bg-gray-50 text-gray-800">
         <div class="container mx-auto px-6 py-16">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-                <div>
-                    <div class="flex items-center mb-4">
-                        <img src="https://intrasyncindustrial.com/images/logo.jpg" alt="IntraSync Industrial Logo" class="h-10 mr-3">
-                        <span class="text-xl font-bold gradient-text">AggLogic</span>
+            <div class="grid md:grid-cols-5 gap-8 mb-12">
+                <div class="md:col-span-2">
+                    <img src="logo.png" alt="AggLogic" class="h-10 mb-4">
+                    <p class="text-gray-600 mb-6">The complete ERP platform built specifically for readymix concrete and aggregate operations. Automate from batch plant to delivery to accounting.</p>
+                    <div class="flex gap-4">
+                        <a href="https://www.linkedin.com/company/intrasync-industrial" target="_blank" rel="noopener noreferrer" class="w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center hover:bg-indigo-700 transition">
+                            <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                        </a>
                     </div>
-                    <p class="text-gray-400 leading-relaxed">The AI-powered operating system for readymix concrete and aggregate producers.</p>
                 </div>
                 <div>
-                    <h4 class="font-semibold mb-4 tracking-wider uppercase text-gray-400">Platform</h4>
-                    <ul class="space-y-3">
-                        <li><a href="modules.html" class="text-gray-300 hover:text-white">All Features</a></li>
-                        <li><a href="accounting.html" class="text-gray-300 hover:text-white">Accounting</a></li>
-                        <li><a href="hr.html" class="text-gray-300 hover:text-white">HR & Payroll</a></li>
-                        <li><a href="dispatch.html" class="text-gray-300 hover:text-white">Dispatch</a></li>
+                    <h3 class="font-bold text-gray-900 mb-4">ERP Modules</h3>
+                    <ul class="space-y-2">
+                        <li><a href="modules.html" class="hover:text-indigo-600 transition">All Modules</a></li>
+                        <li><a href="accounting.html" class="hover:text-indigo-600 transition">Accounting</a></li>
+                        <li><a href="hr.html" class="hover:text-indigo-600 transition">HR & Payroll</a></li>
+                        <li><a href="dispatch.html" class="hover:text-indigo-600 transition">Dispatch</a></li>
                     </ul>
                 </div>
                 <div>
-                    <h4 class="font-semibold mb-4 tracking-wider uppercase text-gray-400">Resources</h4>
-                    <ul class="space-y-3">
-                        <li><a href="blog.html" class="text-gray-300 hover:text-white">Blog</a></li>
-                        <li><a href="faq.html" class="text-gray-300 hover:text-white">FAQ</a></li>
-                        <li><a href="contact.html" class="text-gray-300 hover:text-white">Contact</a></li>
+                    <h3 class="font-bold text-gray-900 mb-4">Resources</h3>
+                    <ul class="space-y-2">
+                        <li><a href="blog.html" class="hover:text-indigo-600 transition">Blog</a></li>
+                        <li><a href="faq.html" class="hover:text-indigo-600 transition">FAQ</a></li>
+                        <li><a href="contact.html" class="hover:text-indigo-600 transition">Support</a></li>
                     </ul>
                 </div>
                 <div>
-                    <h4 class="font-semibold mb-4 tracking-wider uppercase text-gray-400">Legal</h4>
-                    <ul class="space-y-3">
-                        <li><a href="privacy.html" class="text-gray-300 hover:text-white">Privacy Policy</a></li>
-                        <li><a href="terms.html" class="text-gray-300 hover:text-white">Terms of Service</a></li>
+                    <h3 class="font-bold text-gray-900 mb-4">IntraSync Family</h3>
+                    <ul class="space-y-2">
+                        <li><a href="https://intrasyncindustrial.com" class="hover:text-indigo-600 transition">IntraSync Industrial</a></li>
+                        <li><a href="https://intrasyncindustrial.com" class="hover:text-indigo-600 transition">CastLogic (Precast ERP)</a></li>
+                        <li><a href="https://intrasyncindustrial.com" class="hover:text-indigo-600 transition">BatchLogic (Batch Control)</a></li>
+                        <li><a href="index.html" class="hover:text-indigo-600 transition">AggLogic (Aggregates ERP)</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="mt-16 border-t border-gray-800 pt-8 text-center text-gray-500">
-                <p>&copy; 2025 IntraSync Industrial. All rights reserved.</p>
+
+            <div class="border-t border-gray-300 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-500 text-sm">&copy; 2025 IntraSync Industrial. All rights reserved.</p>
+                <div class="flex gap-6 text-sm mt-4 md:mt-0">
+                    <a href="privacy.html" class="hover:text-indigo-600 transition">Privacy Policy</a>
+                    <a href="terms.html" class="hover:text-indigo-600 transition">Terms of Service</a>
+                </div>
             </div>
         </div>
     </footer>
-
-    <script>lucide.createIcons();</script>
 </body>
 </html>
