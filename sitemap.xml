@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <!-- AggLogic - Readymix & Aggregates Software by IntraSync Industrial -->
+    <!-- MaterialsLogic - Readymix & Aggregates Software by IntraSync Industrial -->
 
     <!-- Core Pages -->
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/modules.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/modules.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/qc.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/qc.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
@@ -24,13 +24,13 @@
 
     <!-- Feature Pages -->
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/drone-scanning.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/drone-scanning.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/aggregate-analysis.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/aggregate-analysis.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
@@ -38,73 +38,73 @@
 
     <!-- ERP Module Pages -->
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/schedule.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/schedule.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/stock.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/stock.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/flow.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/flow.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/engage.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/engage.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/insights.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/insights.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/ai.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/ai.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/site.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/site.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/verify.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/verify.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/bidding.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/bidding.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/accounting.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/accounting.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/hr.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/hr.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/dispatch.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/dispatch.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -112,19 +112,19 @@
 
     <!-- Company Pages -->
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/about.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/about.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/faq.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/faq.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/contact.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/contact.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -132,13 +132,13 @@
 
     <!-- Legal Pages -->
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/privacy.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/privacy.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/terms.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/terms.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
@@ -146,61 +146,61 @@
 
     <!-- Blog Posts - Drone & AI Technology -->
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/drone-stockpile-measurement.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/drone-stockpile-measurement.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/ai-aggregate-gradation-analysis.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/ai-aggregate-gradation-analysis.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/drone-surveying-quarries.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/drone-surveying-quarries.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/photogrammetry-stockpile-accuracy.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/photogrammetry-stockpile-accuracy.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/lidar-stockpile-scanning.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/lidar-stockpile-scanning.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/computer-vision-aggregate-sizing.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/computer-vision-aggregate-sizing.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/machine-learning-demand-forecasting.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/machine-learning-demand-forecasting.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/ai-crusher-optimization.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/ai-crusher-optimization.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/autonomous-drones-quarries.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/autonomous-drones-quarries.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/digital-twin-aggregate-plants.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/digital-twin-aggregate-plants.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -208,109 +208,109 @@
 
     <!-- Blog Posts - Quality Control -->
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/aggregate-quality-testing-methods.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/aggregate-quality-testing-methods.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/aggregate-gradation-specifications.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/aggregate-gradation-specifications.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/aggregate-moisture-content.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/aggregate-moisture-content.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/aggregate-testing-frequency.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/aggregate-testing-frequency.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/los-angeles-abrasion-testing.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/los-angeles-abrasion-testing.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/specific-gravity-testing.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/specific-gravity-testing.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/soundness-testing-aggregates.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/soundness-testing-aggregates.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/aggregate-shape-testing.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/aggregate-shape-testing.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/sand-equivalent-testing.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/sand-equivalent-testing.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/alkali-silica-reactivity.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/alkali-silica-reactivity.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/friability-testing-aggregates.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/friability-testing-aggregates.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/organic-impurities-testing.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/organic-impurities-testing.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/petrographic-analysis-aggregates.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/petrographic-analysis-aggregates.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/deleterious-materials-testing.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/deleterious-materials-testing.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/clay-content-testing.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/clay-content-testing.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/aggregate-testing-labs.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/aggregate-testing-labs.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/aggregate-contamination-prevention.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/aggregate-contamination-prevention.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/aggregate-absorption-rates.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/aggregate-absorption-rates.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -318,121 +318,121 @@
 
     <!-- Blog Posts - Quarry Operations -->
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/quarry-inventory-management.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/quarry-inventory-management.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/aggregate-crushing-efficiency.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/aggregate-crushing-efficiency.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/aggregate-plant-automation.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/aggregate-plant-automation.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/quarry-production-tracking.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/quarry-production-tracking.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/aggregate-screening-efficiency.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/aggregate-screening-efficiency.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/conveyor-belt-maintenance.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/conveyor-belt-maintenance.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/aggregate-washing-operations.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/aggregate-washing-operations.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/aggregate-blending-operations.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/aggregate-blending-operations.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/crusher-liner-management.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/crusher-liner-management.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/dust-collector-maintenance.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/dust-collector-maintenance.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/fines-recovery-systems.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/fines-recovery-systems.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/aggregate-drying-systems.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/aggregate-drying-systems.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/aggregate-stockpile-design.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/aggregate-stockpile-design.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/loadout-efficiency-improvement.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/loadout-efficiency-improvement.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/belt-scale-calibration.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/belt-scale-calibration.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/pit-mine-planning.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/pit-mine-planning.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/quarry-reclamation-planning.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/quarry-reclamation-planning.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/aggregate-environmental-permits.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/aggregate-environmental-permits.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/dust-suppression-aggregate-operations.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/dust-suppression-aggregate-operations.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/predictive-maintenance-quarries.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/predictive-maintenance-quarries.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -440,103 +440,103 @@
 
     <!-- Blog Posts - Fleet & Dispatch -->
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/readymix-fleet-management.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/readymix-fleet-management.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/truck-scale-integration.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/truck-scale-integration.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/aggregate-hauling-optimization.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/aggregate-hauling-optimization.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/aggregate-delivery-scheduling.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/aggregate-delivery-scheduling.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/multi-material-dispatch.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/multi-material-dispatch.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/driver-mobile-apps-aggregates.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/driver-mobile-apps-aggregates.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/geofencing-delivery-tracking.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/geofencing-delivery-tracking.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/return-load-optimization.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/return-load-optimization.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/eta-prediction-algorithms.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/eta-prediction-algorithms.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/load-board-integration.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/load-board-integration.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/proof-of-delivery-systems.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/proof-of-delivery-systems.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/split-load-management.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/split-load-management.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/driver-performance-tracking.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/driver-performance-tracking.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/customer-notification-systems.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/customer-notification-systems.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/dispatch-routing-algorithms.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/dispatch-routing-algorithms.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/hauler-compliance-tracking.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/hauler-compliance-tracking.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/demurrage-management.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/demurrage-management.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -544,73 +544,73 @@
 
     <!-- Blog Posts - Analytics & Reporting -->
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/production-analytics-dashboards.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/production-analytics-dashboards.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/automated-reporting-systems.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/automated-reporting-systems.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/cost-per-ton-analytics.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/cost-per-ton-analytics.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/weather-impact-production.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/weather-impact-production.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/benchmark-reporting.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/benchmark-reporting.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/revenue-optimization-ai.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/revenue-optimization-ai.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/supplier-performance-analytics.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/supplier-performance-analytics.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/market-demand-analysis.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/market-demand-analysis.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/production-planning-software.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/production-planning-software.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/inventory-reconciliation-ai.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/inventory-reconciliation-ai.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/energy-consumption-optimization.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/energy-consumption-optimization.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/customer-order-portals.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/customer-order-portals.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -618,79 +618,79 @@
 
     <!-- Blog Posts - Drone Specific -->
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/drone-flight-planning-quarries.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/drone-flight-planning-quarries.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/rtk-gps-drone-accuracy.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/rtk-gps-drone-accuracy.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/ground-control-points-surveys.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/ground-control-points-surveys.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/change-detection-stockpiles.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/change-detection-stockpiles.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/3d-modeling-quarry-planning.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/3d-modeling-quarry-planning.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/drone-data-processing-workflows.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/drone-data-processing-workflows.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/orthomosaic-mapping-accuracy.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/orthomosaic-mapping-accuracy.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/multispectral-imaging-quarries.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/multispectral-imaging-quarries.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/drone-safety-quarry-operations.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/drone-safety-quarry-operations.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/regulatory-compliance-drone-ops.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/regulatory-compliance-drone-ops.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/drone-inspection-equipment.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/drone-inspection-equipment.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/thermal-imaging-quarry-equipment.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/thermal-imaging-quarry-equipment.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://agglogic.intrasyncindustrial.com/blog/volumetric-vs-weight-measurement.html</loc>
+        <loc>https://materialslogic.intrasyncindustrial.com/blog/volumetric-vs-weight-measurement.html</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>

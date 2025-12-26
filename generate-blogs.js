@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-// AggLogic Blog Articles - Top 100 Questions/Topics for Aggregate & Readymix Operations
-const agglogicArticles = [
+// MaterialsLogic Blog Articles - Top 100 Questions/Topics for Aggregate & Readymix Operations
+const materialslogicArticles = [
   { slug: "drone-stockpile-measurement", title: "Drone Stockpile Measurement: Complete Guide for Aggregates", category: "Drone Technology", description: "How drone technology is revolutionizing inventory management in aggregate operations." },
   { slug: "aggregate-quality-testing-methods", title: "Aggregate Quality Testing Methods: ASTM Standards Explained", category: "Quality Control", description: "Understanding the essential quality tests for aggregates and how to implement them." },
   { slug: "ai-aggregate-gradation-analysis", title: "AI-Powered Aggregate Gradation Analysis", category: "AI & Analytics", description: "Using artificial intelligence to automate and improve gradation testing accuracy." },
@@ -103,13 +103,13 @@ const agglogicArticles = [
   { slug: "carbon-footprint-aggregates", title: "Reducing Carbon Footprint in Aggregate Operations", category: "AI & Analytics", description: "Strategies for lower environmental impact." }
 ];
 
-function generateBlogHTML(article, siteType = 'agglogic') {
+function generateBlogHTML(article, siteType = 'materialslogic') {
   const isBatchLogic = siteType === 'batchlogic';
   const primaryColor = isBatchLogic ? 'cyan' : 'orange';
   const gradientText = isBatchLogic
     ? 'background: linear-gradient(to right, #0ea5e9, #06b6d4); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'
     : 'background: linear-gradient(to right, #d97706, #ea580c); -webkit-background-clip: text; -webkit-text-fill-color: transparent;';
-  const siteName = isBatchLogic ? 'BatchLogic' : 'AggLogic';
+  const siteName = isBatchLogic ? 'BatchLogic' : 'MaterialsLogic';
   const siteTagline = isBatchLogic
     ? 'State-of-the-art batch plant control system for concrete producers.'
     : 'The AI-powered operating system for readymix concrete and aggregate producers.';
@@ -129,7 +129,7 @@ function generateBlogHTML(article, siteType = 'agglogic') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${article.title} | ${siteName} Blog</title>
     <meta name="description" content="${article.description}">
-    <link rel="canonical" href="https://agglogic.intrasyncindustrial.com/blog/${article.slug}.html">
+    <link rel="canonical" href="https://materialslogic.intrasyncindustrial.com/blog/${article.slug}.html">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/lucide@latest"></script>
@@ -258,16 +258,16 @@ function generateBlogHTML(article, siteType = 'agglogic') {
 </html>`;
 }
 
-// Generate all AggLogic blog articles
+// Generate all MaterialsLogic blog articles
 const blogDir = path.join(__dirname, 'blog');
 if (!fs.existsSync(blogDir)) {
   fs.mkdirSync(blogDir, { recursive: true });
 }
 
-agglogicArticles.forEach(article => {
+materialslogicArticles.forEach(article => {
   const filePath = path.join(blogDir, `${article.slug}.html`);
-  fs.writeFileSync(filePath, generateBlogHTML(article, 'agglogic'));
+  fs.writeFileSync(filePath, generateBlogHTML(article, 'materialslogic'));
   console.log(`Created: ${article.slug}.html`);
 });
 
-console.log(`\nGenerated ${agglogicArticles.length} AggLogic blog articles!`);
+console.log(`\nGenerated ${materialslogicArticles.length} MaterialsLogic blog articles!`);

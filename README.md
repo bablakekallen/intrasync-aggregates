@@ -1,4 +1,4 @@
-# AggLogic - Readymix & Aggregates Management Software
+# MaterialsLogic - Readymix & Aggregates Management Software
 
 **The AI-Powered Operating System for Readymix Concrete and Aggregate Producers**
 
@@ -6,7 +6,7 @@ Part of the IntraSync Industrial platform family.
 
 ## Overview
 
-AggLogic is revolutionary software combining cutting-edge AI quality control, drone quarry surveying, instant photographic aggregate analysis, and complete operations management—all in one unified platform.
+MaterialsLogic is revolutionary software combining cutting-edge AI quality control, drone quarry surveying, instant photographic aggregate analysis, and complete operations management—all in one unified platform.
 
 ## Key Features
 
