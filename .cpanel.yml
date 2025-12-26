@@ -1,0 +1,4 @@
+---
+deployment:
+  tasks:
+    - /bin/cp -R ./ /home/d2v9su284tj5/public_html/materialslogic.intrasyncindustrial.com/
